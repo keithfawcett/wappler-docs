@@ -18,5 +18,6 @@
     * [Components](reference/extending-wappler/app-connect/components/README.md)
       * [Create Component](reference/extending-wappler/app-connect/components/create-component.md)
       * [Create UI Definition](reference/extending-wappler/app-connect/components/create-ui-definition.md)
+      * [Example Components](reference/extending-wappler/app-connect/components/example-components.md)
     * [Custom Attributes](reference/extending-wappler/app-connect/custom-attributes.md)
     * [Custom Formatters](reference/extending-wappler/app-connect/custom-formatters.md)
