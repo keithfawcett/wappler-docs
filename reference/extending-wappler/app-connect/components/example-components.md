@@ -1,8 +1,10 @@
 # Example Components
 
-#### Weather Datasource Component <a href="#weather-datasource-component" id="weather-datasource-component"></a>
+### Weather Datasource Component
 
 This sample component will use the weather api to get the current weather at a specific location. You probably don’t want to expose the api key in the html normally, but in this case it is for explaining the workings. If you want to use it in production you probably want to do the api calls in a server action and call the server action from the component. We will here call the api directly for simplicity.
+
+
 
 ```javascript
 dmx.Component('weather-api', {
@@ -68,7 +70,7 @@ dmx.Component('weather-api', {
 The weather in {{weather.location.name}} is {{weather.current.temp_c}}&#8451; and it is {{weather.current.condition.text}}.
 ```
 
-#### Weather Widget Component <a href="#weather-widget-component" id="weather-widget-component"></a>
+### Weather Widget Component
 
 For the weather widget we are going to extend the Weather Datasource Component and render some html that will visually show the current weather.
 
@@ -125,7 +127,7 @@ dmx.Component('weather-widget', {
 <dmx-weather-widget id="weather" key="apikey"></dmx-weather-widget>
 ```
 
-#### Datatable Component <a href="#datatable-component" id="datatable-component"></a>
+### Datatable Component
 
 Simple component that renders a table based on a data source
 
@@ -196,7 +198,7 @@ dmx.Component('datatable', {
 <table class="table" is="dmx-datatable" dmx-bind:data="myDataset"></table>
 ```
 
-#### Resize Observer Component <a href="#resize-observer-component" id="resize-observer-component"></a>
+### Resize Observer Component
 
 The resize oberser component keeps track of changes to the dimensions of the element, the width and height are available as data properties and can be used in expressions. When the dimensions of the element changes it will also trigger the resize event which can be listened to.
 
@@ -230,7 +232,7 @@ dmx.Component('resize-observer', {
 });
 ```
 
-**usage**
+#### Usage
 
 ```
 <div id="resizable" is="dmx-resize-observer">
@@ -291,7 +293,7 @@ dmx.Component('shadow', {
 });
 ```
 
-Usage with your code as example:
+#### Usage
 
 ```
 <dmx-if dmx-bind:condition="payload.parts.where('mimeType', 'text/html', '==')">

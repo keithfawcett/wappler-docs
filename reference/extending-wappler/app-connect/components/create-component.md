@@ -156,3 +156,105 @@ render: function(node) {
 > `this.set(name, value)`: set a value in the data, will overwrite/update existing value\
 > `this.del(name)`: remove value from data\
 >
+
+### App Connect 2 Beta
+
+Here I will list any changes that App Connect 2 will have.
+
+#### Init
+
+For component initialization use the new init method instead of the render method. It executes just before the render method.
+
+#### Render
+
+When no render method is applied it will use a default render. With the default render it will act as a container and call the `$parse` method to render its children. When you don’t want to render children you can set the render property to `false`. When you want to render your own HTML inside the component tag, you should do that in this function.
+
+```javascript
+// This component will not parse any HTML within its tag
+dmx.Component('no-render', {
+  render: false
+});
+```
+
+#### Update
+
+The following methods will be deprecated: (`beforeUpdate`, `update`, `updated`), we will keep it in while the extension is still in Beta and components are being updated.
+
+For updating a component there are 2 new methods:
+
+`requestUpdate(prop, oldValue)`: this method is called automatically when a property value updates and you would normally not need to call this yourself.
+
+`performUpdate(updatedProps)`: this method is called after requestUpdate was called. The updatedProps is a Map which will only contain the updated props where the value contains the previous value.
+
+#### Destroy
+
+The following methods will be deprecated: (`beforeDestroy`, `destroyed`), we will keep it in while the extension is still in Beta and components are being updated.
+
+Instead of the above method we just have a single `destroy` method.
+
+```javascript
+dmx.Component('resize-observer', {
+  initialData: function() {
+    const rect = this.$node.getBoundingClientRect();
+
+    return {
+      width: rect.width,
+      height: rect.height
+    };
+  },
+
+  events: {
+    resize: Event
+  },
+
+  // initialize component
+  init: function(node) {
+    this.observer = new ResizeObserver(entries => {
+      const { width, height } = entries[0].contentRect;
+      // by passing an object it will only trigger
+      // a single update for watched expressions
+      this.set({ width, height });
+      // dispatch the resize event
+      this.dispatchEvent('resize');
+    }).observe(node);
+  },
+
+  // cleanup
+  destroy: function() {
+    this.observer.unobserver(this.$node);
+    delete this.observer;
+  }
+});
+```
+
+#### Watching expressions and updating data
+
+Instead of `$addBinding` use `$watch`. With the update the oldValue is not available anymore, if you need it you should keep track of it yourself.
+
+In previous App Connect the expressions were parsed/evaluated every time update was called. The update was called each time any data changed. With the new App Connect the expression is only parsed/evaluated when the data used in the expression changed, so no more global updates.
+
+When you update your data in your component using `this.set(name, value)` it will directly trigger the callbacks on the watched expressions that uses this data. If you want to change multiple data values it is best to do this in a single set call by passing an object.
+
+```javascript
+// log with each change the expression result
+this.$watch('value1 + value2', value => console.log(value));
+
+// this will trigger the callback and log the result
+this.set('value1', 1);
+// this will trigger the callback again and log the result
+this.set('value2', 2);
+
+// to prevent it being logged 2 times for each update we should do a single call
+this.set({ value1: 1, value2: 2 });
+
+// alternative we can wrap it within dmx.batch
+dmx.batch(() => {
+  // any watches will wait until the batch function ended and callbacks are only called once
+  this.set('value1', 1);
+  if (updateValue2) {
+    this.set('value2', 2);
+  }
+})
+```
+
+\
