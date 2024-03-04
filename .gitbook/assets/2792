@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Wappler Documentation - Wappler&#39;s User Interface</title>
+
+  <meta name="description" content="We will guide you trough the main UI components of Wappler. Wappler’s UI is minimal, intuitive and easy to use. It consists of several main panels, needed in your workflow. The panels can be opened and closed by clicking on their icons in the toolbars. Left Side Site Manager The Site Manager tool...">
+
+  <meta name="og:site_name" content="Wappler Documentation">
+  <meta name="og:image" content="https://community.wappler.io/uploads/default/optimized/3X/2/0/209256641ef78b38a778b36b8fb64cc49b915570_2_690x359.jpeg">
+  <meta name="og:url" content="https://community.wappler.io/t/wapplers-user-interface/2792/1">
+  <meta name="og:title" content="Wappler&#39;s User Interface">
+  <meta name="og:description" content="We will guide you trough the main UI components of Wappler. Wappler’s UI is minimal, intuitive and easy to use. It consists of several main panels, needed in your workflow. The panels can be opened and closed by clicking on their icons in the toolbars. Left Side Site Manager The Site Manager tool...">
+  <meta name="og:ignore_canonical" content="true">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="https://community.wappler.io/uploads/default/optimized/3X/2/0/209256641ef78b38a778b36b8fb64cc49b915570_2_690x359.jpeg">
+  <meta name="twitter:url" content="https://community.wappler.io/t/wapplers-user-interface/2792/1">
+  <meta name="twitter:title" content="Wappler&#39;s User Interface">
+  <meta name="twitter:description" content="We will guide you trough the main UI components of Wappler. Wappler’s UI is minimal, intuitive and easy to use. It consists of several main panels, needed in your workflow. The panels can be opened and closed by clicking on their icons in the toolbars. Left Side Site Manager The Site Manager tool...">
+
+  <link rel="icon" type="image/png" href="https://wappler.io/favicon.png">
+  <link rel="conanical" href="https://community.wappler.io/t/wapplers-user-interface/2792">
+
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/default.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/fa5.min.css">
+  <link rel="stylesheet" href="/css/magnific-popup.css">
+  <link rel="stylesheet" href="/css/style.css?_1709433964913">
+</head>
+
+<body>
+  <header class="page-header">
+    <nav id="top-nav" class="navbar navbar-expand-lg navbar-dark bg-gray-dark shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://wappler.io">
+            <img height="26" src="/img/wappler-logo.svg">
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse1" aria-controls="collapse1" aria-expanded="false" aria-label="Toggle navigation" is="dmx-button" value="" type="button"><i class="far fa-bars fa-lg text-red"></i></button>
+            <div id="collapse1" class="collapse navbar-collapse justify-content-end">
+              <div class="navbar-nav mr-lg-5 pt-3 pt-lg-0">
+                <a class="nav-item nav-link" href="https://wappler.io/features">Features</a>
+                <a class="nav-item nav-link" href="https://wappler.io/pricing">Pricing</a>
+                <a class="nav-item nav-link active" href="https://docs.wappler.io">Docs</a>
+                <a class="nav-item nav-link" href="https://community.wappler.io">Community</a>
+                <a class="nav-item nav-link" href="https://medium.com/wappler-io">Blog</a>
+                <a class="btn btn-light ms-0 ms-lg-3" href="https://account5.wappler.io">Account <i class="ms-1 fas fa-user"></i></a>
+              </div>
+            </div>
+        </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="row flex-xl-nowrap">
+      <div class="col-12 col-md-3 col-xl-3 docs-sidebar">
+        <div class="docs-search">
+          <input id="search" type="search" class="form-control" autocomplete="off" spellcheck="false" placeholder="Search...">
+          <button class="navbar-toggler d-md-none p-0 ml-3 text-red" data-toggle="collapse" data-target="#docs-nav" aria-controls="nav-top" aria-expanded="false" aria-label="Toggle navigation" type="button">TOC</button>
+          <div id="results"></div>
+        </div>
+
+        <nav id="docs-nav" class="collapse docs-links">
+          
+            <div class="docs-toc-item active">
+              <a class="docs-toc-link" href="/">Introduction to Wappler</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li class="active">
+                    <a href="/t/wapplers-user-interface/2792">Wappler's User Interface</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/resources-and-tips-for-beginners-to-wappler/48476">Resources and Tips for Beginners to Wappler</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/wappler-the-visual-web-app-creator/2791">Getting Started</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/purchasing-a-wappler-license/44835">Purchasing a Wappler License</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/how-to-download-wappler/12413">Download and Install Wappler</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/introducing-wappler-wallet/45465">Introducing Wappler Wallet</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/wappler-shortcut-keys/3245">Wappler Shortcut Keys</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/app-connect-introduction/2840">App Connect Introduction</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-integration/2926">Bootstrap Integration</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-file-manager/12404">Using the File Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-design-panel/6892">Using the Design Panel</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-css-styles-panel/2925">Using the CSS Styles Panel</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/accessing-the-dom-tree/2923">Accessing the DOM Tree</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/migrating-dreamweaver-site-definitions-into-wappler/2922">Migrating Dreamweaver Site Definitions into Wappler</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setting-up-a-lightweight-dev-environment-with-nodejs-and-sqlite/36189">Setting Up a Lightweight Dev Environment with NodeJS and SQLite</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/project-manager/2825">Project Manager</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/creating-a-new-local-project/2909">Creating a New Local Project</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/switching-between-projects/2907">Switching between Projects</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/removing-projects/2906">Removing Projects</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setting-up-ftp-connection/5631">Setting up FTP Connection</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-wappler-project-based-on-existing-git-repository/25996">Creating a Wappler project based on existing Git Repository</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-wappler-extensions-channels-for-beta-testing/40357">Using Wappler Extensions Channels for Beta Testing</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/how-to-reset-your-project-default-frameworks/40358">How to Reset Your Project Default Frameworks</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/how-to-guides/2824">How-To Guides</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/adding-app-connect/2921">Adding App Connect</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-bootstrap-4/2920">Adding Bootstrap 4</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-project-default-frameworks/10650">Adding Project Default Frameworks</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/working-with-elements-on-your-pages/2919">Working with Elements on your pages</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-class-or-id/2916">Adding Class or ID</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-margin-and-padding/2915">Applying Margin and Padding</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/inserting-common-html-tags/2910">Inserting Common HTML Tags</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-responsive-images/2914">Applying Responsive Images</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/drag-drop-elements/2911">Drag &amp; Drop Elements</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/dynamic-attributes/2912">Dynamic Attributes</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/defining-and-using-url-parameters/2913">Defining and Using URL Parameters</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/formatting-dynamic-data-for-client-side-display/2870">Formatting Dynamic Data for Client Side Display</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-font-awesome/3751">Using Font Awesome</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-font-awesome-5-pro/3752">Using Font Awesome 5 Pro</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-or-hide-elements-conditionally/36361">Show or Hide Elements Conditionally</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-a-message-when-query-returns-no-results/4118">Show a Message when Query Returns No Results</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-total-number-of-records-from-a-query/4121">Show Total Number of Records from a Query</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-shortcut-keys-for-dynamic-events/4161">Using Shortcut Keys for Dynamic Events</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/responsive-images-with-srcset/4368">Responsive Images with Lazy Load and srcset</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/vertical-navigation/4524">Vertical Navigation</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/sticky-navigation-on-scroll/4550">Sticky Navigation on Scroll</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/overlaying-text-on-image/6128">Overlaying Text on Image</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/styling-bootstrap-4-buttons/6165">Styling Bootstrap 4 Buttons</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/formatting-data-in-dynamic-tables/4825">Formatting Data in Dynamic Tables</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/set-table-row-background-color-with-dynamic-value/4846">Set Table Row Background Color with Dynamic Value</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-confirmation-popup-when-deleting-records/4847">Show Confirmation Popup when Deleting Records</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/working-with-current-date-and-time/5028">Working with Current Date and Time</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/min-max-years-relative-to-the-current-year/5468">Min/Max Years Relative to the Current Year</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/nested-repeat-regions/5165">Nested Repeat Regions</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-disabled-button-with-spinner-on-form-submit/5470">Show Disabled Button with Spinner on Form Submit</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/push-footer-to-bottom-of-viewport/12929">Push Footer to bottom of viewport</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-app-connect-with-javascript-functions/15765">Using App Connect with JavaScript Functions</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/bootstrap-4-5-visual-designer/2833">Bootstrap 4 &amp; 5 Visual Designer</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/bootstrap-layout/47196">Bootstrap Layout</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-typography-and-text/47278">Bootstrap Typography and Text</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-navbar/2904">Creating a Navbar</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-cards/47174">Bootstrap Cards</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-offcanvas-sidebar-with-bootstrap-5/31927">Creating Offcanvas Sidebar with Bootstrap 5</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-4-forms/2902">Bootstrap 4 Forms</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-4-modals/2901">Bootstrap 4 Modals</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-bootstrap-source-files/7582">Using Bootstrap Source Files</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/navigation-align-options/4523">Navigation Align Options</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/theme-manager/19557">Theme Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/theme-manager-advanced-options/20111">Theme Manager - Advanced Options</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-bootstrap-with-custom-paths/23611">Using Bootstrap with Custom Paths</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/converting-bootstrap-4-pages-to-bootstrap-5/28896">Converting Bootstrap 4 pages to Bootstrap 5</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-theme-manager-with-bootstrap-5/28897">Using the Theme Manager with Bootstrap 5</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-bootstrap-5-navbar/38163">Creating a Bootstrap 5 Navbar</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-bootstrap-5-placeholders/39764">Using Bootstrap 5 Placeholders</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-4-layout-basics/2905">Bootstrap 4 Layout Basics</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-4-cards/2903">Bootstrap 4 Cards</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/image-galleries-animations/2834">Image Galleries and Animations</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/applying-a-masonry-grid/2874">Applying a Masonry Grid</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-a-page-preloader/2875">Applying a Page Preloader</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-animations/2876">Using Animations</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/animation-delay-options/5457">Animation Delay Options</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-lightbox/2877">Using Lightbox</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/responsive-slideshow/2900">Responsive Slideshow</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/slideshow-transitions/2879">Slideshow Transitions</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/swiper-basic-options/3748">Swiper - Basic Options</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/swiper-responsive-options/4148">Swiper - Responsive Options</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/responsive-fullscreen-swiper/4850">Responsive Fullscreen Swiper</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-lazy-load-for-image-on-your-page/4360">Using Lazy Load for Image on Your Page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/lazy-load-with-dynamic-data/4365">Lazy Load with Dynamic Data</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-placeholder-image-with-lazy-load/4366">Using Placeholder Image with Lazy Load</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-parallax-effect-to-images/10208">Applying Parallax Effect to Images</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-background-videos/10209">Adding Background Videos</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-typing-animation/10238">Adding Typing Animation</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-transitions-to-page-elements/24130">Adding Transitions to page elements</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-front-end-components-category/7586">Front-end Components</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/using-the-date-range-picker-with-insert-and-update-record/11753">Using the Date Range Picker with Insert and Update Record</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-time-picker-with-date-picker-component/10821">Using Time Picker with Date Picker Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-date-range-picker-with-dynamic-values/11754">Using Date Range Picker with Dynamic Values</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/getting-started-with-app-connect-event-calendar/18793">Getting Started with App Connect Event Calendar</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/app-connect-calendar-dynamic-events/18828">App Connect Calendar Dynamic Events</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-autocomplete-component/13161">Using the Autocomplete Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/displaying-a-confirmation-dialog-on-form-submit/18620">Displaying a Confirmation Dialog on Form Submit</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/deleting-database-records-with-confirmation/18622">Deleting Database Records with Confirmation</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/app-connect-calendar-dynamic-events/18828">App Connect Calendar Dynamic Events</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-summernote-wysiwyg-editor/19855">Using Summernote WYSIWYG Editor</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/introduction-to-app-connect-flow/18040">Introduction to App Connect Flow</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-toggle-component/36385">Using the Toggle Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-tagify-component/40507">Using the Tagify Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/custom-content-for-tagify-lists/40510">Custom Content for Tagify Lists</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/inserting-tagify-values-into-a-database/40515">Inserting Tagify Values into a Database</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-tagify-with-multi-references/40997">Using Tagify with Multi References</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/tagify-creating-new-tags-and-storing-them-in-the-database/41386">Tagify - Creating New Tags and Storing them in the Database</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/server-connect-introduction/2835">Server-side Components</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/debugging-server-connect-errors/2857">Debugging Server Connect Errors</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/connecting-to-a-database/2873">Connecting to a Database</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-database-queries/2872">Creating Database Queries</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-custom-sql-queries/10653">Creating Custom SQL Queries</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/database-single-query/12781">Database Single Query</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-nested-queries-with-the-database-query-builder/40729">Using Nested Queries with the Database Query Builder</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/advanced-multi-level-nested-queries-with-the-database-query-builder/41374">Advanced Multi Level Nested Queries with the Database Query Builder</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/displaying-dynamic-data-on-your-pages/2871">Displaying Dynamic Data on your Pages</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/filtering-database-query-with-a-text-input/2869">Filtering Database Query with a Text Input</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/filtering-database-query-with-an-url-parameter/2868">Filtering Database Query with an URL Parameter</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/dynamic-select-menu/2867">Dynamic Select Menu</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-dynamic-paging/2865">Applying Dynamic Paging</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/dynamic-sortable-table/2866">Dynamic Sortable Table</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/displaying-record-details-with-the-data-detail-component/11416">Displaying Record Details with the Data Detail Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/loop-through-database-records-with-the-data-iterator-component/11479">Loop Through Database Records with the Data Iterator Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/insert-database-record/2863">Insert Database Record</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/get-inserted-record-id/2862">Get Inserted Record ID</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/sending-a-value-for-unchecked-checkbox-on-database-insert-update/36365">Sending a Value for Unchecked Checkbox on Database Insert / Update</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/delete-database-records/2860">Delete Database Records</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/sending-form-data-to-email/2858">Sending Form Data to Email</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/filtering-database-query-with-multiple-checkboxes/4053">Filtering Database Query with Multiple Checkboxes</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/dynamically-check-multiple-checkboxes/4073">Dynamically Check Multiple Checkboxes</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/server-side-includes-ssi/2864">Server Side Includes (SSI)</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-session-variables/3320">Using Session Variables</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/generating-an-unique-uuid-identifier/36568">Generating an unique UUID identifier</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-set-value-in-server-connect/11647">Using Set Value in Server Connect</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-reusable-actions-with-server-connect-library/27314">Creating Reusable Actions with Server Connect Library</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-globals-in-server-connect/27308">Using Globals in Server Connect</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/join-results-of-2-data-collections/31706">Join Results of 2 Data Collections</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-data-transformations-in-server-connect/31734">Using Data Transformations in Server Connect</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/working-with-server-connect-array-lists/47668">Working with Server Connect Array List</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/forms-data-validation/2837">Form and Data Validation</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/validation-apply-client-side-form-validation-with-user-feedback/2849">Validation - Apply Client Side Form Validation with User Feedback</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/check-if-a-database-record-already-exists-before-inserting-a-new-entry/2847">Check if a Database Record Already Exists Before Inserting a New Entry</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/building-multi-column-forms/5541">Building Multi-Column Forms</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-multi-steps-forms/10799">Creating Multi Steps Forms</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/file-management/4084">File Management</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/uploading-single-file-to-your-server/4231">Uploading Single File To Your Server</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-progress-bar-to-upload-form/4271">Adding Progress Bar to Upload Form</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/inserting-uploaded-file-names-in-a-database/4234">Inserting Uploaded File Names in a Database</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/uploading-multiple-files-to-your-server/4412">Uploading Multiple Files To Your Server</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/inserting-multiple-file-names-in-a-database/4413">Inserting Multiple File Names in a Database</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-image-preview-before-upload/4479">Show Image Preview Before Upload</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/listing-files-from-a-folder-on-your-server/4823">Listing Files From a Folder on Your Server</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/resize-image-and-create-a-thumbnail-on-upload/4802">Resize Image and Create a Thumbnail on Upload</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-dropzone-component/7727">Using the Dropzone Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/file-downloads-with-server-connect/12780">File Downloads with Server Connect</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/custom-file-downloader-with-controls-and-progress-bar/12987">Custom File Downloader with Controls and Progress Bar</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/security-and-login/2836">Security and Login</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/setting-up-site-security-settings/2856">Setting up Site Security Settings</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/login-create-a-working-user-login-page/2855">Login - Create a Working User Login Page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-argon2-secure-hashes/18612">Using Argon2 Secure Hashes</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/security-restricting-access-to-your-page/2853">Security - Restricting Access to Your Page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/security-secure-your-server-side-data/2852">Security - Secure your Server-Side data</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/logout-create-a-working-user-logout-button/2851">Logout - Create a Working User Logout Button</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/getting-details-of-the-logged-in-user-and-binding-them-to-your-page/2850">Getting Details of the Logged In User and Binding them to your page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/logged-user-session-name/3319">Logged User Session Name</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/password-reset-functionality-part-1/4943">Password Reset Functionality: Part 1</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/password-reset-functionality-part-2/5160">Password Reset Functionality: Part 2</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/register-new-user-and-auto-login-on-success/3550">Register New User and Auto Login on Success</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/redirecting-on-login-based-on-user-roles/11419">Redirecting on Login Based on User Roles</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-oauth2-connector-with-facebook/12345">Using OAuth2 Connector with Facebook</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-oauth2-connector-with-google/37265">Using OAuth2 Connector with Google</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/notifications-and-alerts/2838">Notifications and Alerts</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/notifications-adding-and-general-notifications-usage/2845">Notifications - Adding and General Notifications Usage</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-bootstrap-4-toasts/18591">Using Bootstrap 4 Toasts</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/cookies-sessions-and-local-storage/3996">Cookies, Sessions and Local Storage</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/using-cookie-to-show-modal-once/3998">Using Cookie to Show Modal Once</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/passing-values-between-your-pages/5588">Passing Values Between your Pages</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/working-with-arrays/7701">Working with Arrays</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-cookie-consent-alert/18543">Creating a Cookie Consent Alert</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-shopping-cart-with-the-data-store-component/17465">Creating a Shopping Cart with the Data Store Component</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/api-and-json/3669">API and JSON</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/working-with-json-data/2859">Working with JSON Data</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-api-data-source/3670">Using API Data Source</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/data-types-and-binding/3673">Data Types and Binding</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/caching-api-data/3671">Caching API Data</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/api-connector-components-how-to-use-and-connect-rest-curl-apis/3799">API Connector components, how to use and connect REST/Curl API's</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/mobile-apps/2839">Mobile Apps</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/setting-up-a-mobile-project-with-capacitor/39226">Setting Up a Mobile Project with Capacitor</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/framework-7-including-the-framework-on-your-mobile-app/2843">Framework 7 - Including the Framework on your Mobile App</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-desktop-apps/10649">Creating Desktop Apps</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-dynamic-data-in-desktop-and-mobile-apps/19009">Using Dynamic Data in Desktop and Mobile Apps</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/mobile-apps-routing-with-bootstrap/31923">Mobile Apps: Routing with Bootstrap</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-local-databases-in-mobile-and-desktop-apps/46840">Using Local Databases in Mobile and Desktop apps</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-capacitor-camera-plugin/46974">Using Capacitor Camera Plugin</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-routing-and-url-rewrite-category/6578">Routing and URL Rewrite</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/url-rewriting-with-wappler/6254">URL Rewriting with Wappler</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-single-page-apps-spa/6583">Creating Single Page Apps (SPA)</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/ecommerce/7728">Ecommerce</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/getting-started-with-stripe-integration-in-wappler/31295">Getting Started with Stripe Integration in Wappler</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/getting-started-with-stripe-webhooks/31485">Getting Started with Stripe Webhooks</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-checkout-with-custom-products/31503">Stripe Checkout with Custom Products</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-subscriptions/31491">Stripe Subscriptions</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-custom-checkout-forms/31700">Stripe Custom Checkout Forms</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-1-customer-creation/7601">Stripe Integration Part 1 - Customer Creation</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-2-listing-customers/7605">Stripe Integration Part 2 - Listing Customers</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-3-retrieving-a-customer-object/7611">Stripe Integration Part 3 - retrieving a customer object</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-4a-the-basic-payment-action-app-connect-page/7627">Stripe Integration Part 4a - The basic Payment Action - App Connect Page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-4b-the-basic-payment-action-server-connect-page/7671">Stripe Integration Part 4b - The Basic Payment Action - Server Connect Page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-5-adding-shipping-details-to-your-checkout/7803">Stripe Integration Part 5 - Adding shipping Details to your checkout</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/introduction-to-custom-checkout-module/7861">Introduction to custom checkout module</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-git-and-version-control-category/12405">Git and Version Control</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/version-control-with-git/12406">Version Control with Git</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/git-branches/12407">Git Branches</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/git-remote-repositories/12408">Git Remote Repositories</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/git-powers-going-back-in-time/13554">Git Powers - Going back in time</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/connecting-to-github-gitlab-or-bitbucket/25994">Connecting to GitHub, Gitlab or BitBucket</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-wappler-project-based-on-existing-git-repository/25996">Creating a Wappler project based on existing Git Repository</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-nodejs-category/22088">NodeJS</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/node-js-integration-in-wappler/20928">Node.js Integration in Wappler</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-template-based-pages-and-layout-in-wappler-with-nodejs/21430">Creating template based pages and layout in Wappler with NodeJS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/building-spa-pages-with-nodejs/25209">Building SPA pages with NodeJS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-partials-with-nodejs/21869">Using Partials with NodeJS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/sever-side-rendering-with-nodejs/21650">Sever Side Rendering with NodeJS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-server-connect-data-for-server-side-rendering-in-nodejs/24940">Using Server Connect Data for Server Side Rendering in NodeJS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-security-to-your-nodejs-pages/21682">Applying Security to your NodeJS pages</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-nodejs-project-with-docker/21225">Creating a NodeJS project with Docker</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/nodejs-ftp-deploy-on-shared-hosting-with-plesk-and-cpanel/21222">NodeJS FTP deploy on shared hosting with Plesk and cPanel</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/realtime-data-update-with-nodejs-and-websockets/28089">Realtime Data Update with NodeJS and WebSockets</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/websockets-realtime-messaging/30847">WebSockets - Realtime Messaging</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/building-a-real-time-chat-application/31000">Building a Real Time Chat Application</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-database-manager-category/22089">Database Manager</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/creating-database-connections-with-the-database-manager/20664">Creating Database Connections with the Database Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-database-relations-with-the-database-manager/20653">Creating Database Relations with the Database Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/editing-database-data-with-the-new-database-manager/21867">Editing Database Data with the new Database Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-sub-tables-with-database-manager/40721">Creating Sub Tables with Database Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-multi-references-in-the-database-manager/40991">Using Multi References in the Database Manager</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-hosting-and-cloud-platforms-category/22091">Hosting and Cloud Platforms</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/managing-cloud-servers-with-resource-manager/43716">Managing Cloud Servers with Resource Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-a-single-local-database-server-for-all-your-projects/50138">Using a Single Local Database Server for all Your Projects</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-managed-databases-with-the-resource-manager/44074">Using Managed Databases with the Resource Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/managing-ssh-keys-with-resource-manager/44456">Managing SSH Keys with Resource Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/use-ssh-for-remote-docker-targets/49842">Use SSH for Remote Docker Targets</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/installing-shared-services-on-remote-servers/50279">Installing Shared Services on Remote Servers</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/installing-and-using-redis-for-multiple-projects/50527">Installing and Using Redis for Multiple Projects</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/free-google-firebase-hosting-in-wappler/17547">Free Google Firebase Hosting in Wappler!</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/deploying-your-web-sites-apps-to-heroku/21421">Deploying your Web Sites/Apps to Heroku</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setup-aws-hosting-with-docker/23867">Setup AWS hosting with Docker</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setup-s3-on-aws/23618">Setup S3 on AWS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setup-s3-on-digital-ocean-spaces/23626">Setup S3 on Digital Ocean Spaces</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-s3-connector/23623">Using S3 Connector</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/roll-your-own-paas-heroku-alternative-part-1/21502">Roll your own PaaS - Heroku alternative (Part 1)</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/roll-your-own-paas-heroku-alternative-part-2/21503">Roll your own PaaS - Heroku alternative (Part 2)</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setup-aws-hosting-with-docker/23867">Setup AWS hosting with Docker</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-app-connect-s3-upload/23862">Using App Connect S3 Upload</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-elastic-ip-with-amazon-aws/24138">Using Elastic IP with Amazon AWS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/remote-file-manager-for-docker/39791">Remote File Manager for Docker</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/connecting-existing-servers-in-wappler-for-docker-deployments/39788">Connecting existing servers in Wappler for docker deployments</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-free-server-with-oracle-cloud-always-free/39829">Creating a Free Server with Oracle Cloud Always Free</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+        </nav>
+      </div>
+
+      <div class="d-none d-xl-block col-xl-2 docs-toc" id="toc-collapse">
+        <ul class="section-nav">
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Left-Side">Left Side</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Site-Manager">Site Manager</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Git-Version-Control-">Git (Version Control)</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Workflows">Workflows</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Database-Manager">Database Manager</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Routes">Routes</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Theme-Manager">Theme Manager</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Resource-Manager">Resource Manager</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Project-Settings">Project Settings</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Project-Manager">Project Manager</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Extentions">Extentions</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Options">Options</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Your-profile">Your profile</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Component-Edit-Mode">Component Edit Mode</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Text-Edit-Mode">Text Edit Mode</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Inspect-Mode">Inspect Mode</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Accessibility-Mode">Accessibility Mode</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Preview-mode">Preview mode</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Right-Side">Right Side</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#App-Structure">App Structure</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Design">Design</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Styles">Styles</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#DOM">DOM</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Theme-Options">Theme Options</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Bottom">Bottom</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Publish-and-Terminal">Publish and Terminal</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Top">Top</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Project-Manager">Project Manager</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Design-view">Design view</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Code-view">Code view</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Split-view">Split view</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Make-project-thumbnail">Make project thumbnail</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Responsive-options">Responsive options</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Options-top-right">Options top right</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Toggle-App-Connect-mode">Toggle App Connect mode</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Open-in-Browser">Open in Browser</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Show-QR-Code-for-preview">Show QR Code for preview</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#Reload-Design-view">Reload Design view</a>
+            </li>
+          
+        </ul>
+      </div>
+
+      <main class="col-12 col-md-9 col-xl-7 py-md-3 pl-md-5 docs-content article" role="main">
+        <a class="float-right" href="https://community.wappler.io/t/wapplers-user-interface/2792/1">Discuss</a>
+
+        <h1 class="docs-title">Wappler&#39;s User Interface</h1>
+
+        <div data-theme-toc="true"> </div>
+<p class="lead">We will guide you trough the main UI components of Wappler. Wappler’s UI is minimal, intuitive and easy to use. It consists of several main panels, needed in your workflow. The panels can be opened and closed by clicking on their icons in the toolbars.</p>
+<h2 id="Left-Side">Left Side</h2>
+<h3 id="Site-Manager">Site Manager</h3>
+<p>The Site Manager tool is located in the left toolbar. It allows you to manage your pages, site assets and local and remote files and folders.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/2/0/209256641ef78b38a778b36b8fb64cc49b915570.jpeg" data-download-href="https://community.wappler.io/uploads/default/209256641ef78b38a778b36b8fb64cc49b915570" title="Site manager tool"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/2/0/209256641ef78b38a778b36b8fb64cc49b915570_2_690x359.jpeg" alt="Site manager tool" data-base62-sha1="4E8NWPCLwtghq9mg7yMiwEAKNAA" width="690" height="359" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/2/0/209256641ef78b38a778b36b8fb64cc49b915570_2_690x359.jpeg, https://community.wappler.io/uploads/default/optimized/3X/2/0/209256641ef78b38a778b36b8fb64cc49b915570_2_1035x538.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/2/0/209256641ef78b38a778b36b8fb64cc49b915570_2_1380x718.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/2/0/209256641ef78b38a778b36b8fb64cc49b915570_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Site manager tool</span><span class="informations">5120×2666 1.99 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Git-Version-Control-">Git (Version Control)</h3>
+<p>The Git panel provides version control options in Wappler. You can create a Git repository for every Wappler project you wish to keep track on. Having a repository is great way to have a good backup of all your project files and their changes</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/5/e/5efb8e160092cf3965e73cc9520c8365672d935f.jpeg" data-download-href="https://community.wappler.io/uploads/default/5efb8e160092cf3965e73cc9520c8365672d935f" title="Git Manager"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/5/e/5efb8e160092cf3965e73cc9520c8365672d935f_2_690x358.jpeg" alt="Git Manager" data-base62-sha1="dyfPR1iYeYHl3ahTkMC94DLEWBN" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/5/e/5efb8e160092cf3965e73cc9520c8365672d935f_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/5/e/5efb8e160092cf3965e73cc9520c8365672d935f_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/5/e/5efb8e160092cf3965e73cc9520c8365672d935f_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/5/e/5efb8e160092cf3965e73cc9520c8365672d935f_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Git Manager</span><span class="informations">5120×2660 2.07 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Workflows">Workflows</h3>
+<p>The Workflows Panel is where you define your server actions and app flows visually. Connect to your databases, work with dynamic data, send emails, manage files and folders, process images, create login systems and more.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/2/9/2911188c7665b77291f2856b508ae31e0395ca0b.jpeg" data-download-href="https://community.wappler.io/uploads/default/2911188c7665b77291f2856b508ae31e0395ca0b" title="Workflows"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/2/9/2911188c7665b77291f2856b508ae31e0395ca0b_2_690x359.jpeg" alt="Workflows" data-base62-sha1="5RicErNvvzVFUj0OvToEES9xg8j" width="690" height="359" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/2/9/2911188c7665b77291f2856b508ae31e0395ca0b_2_690x359.jpeg, https://community.wappler.io/uploads/default/optimized/3X/2/9/2911188c7665b77291f2856b508ae31e0395ca0b_2_1035x538.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/2/9/2911188c7665b77291f2856b508ae31e0395ca0b_2_1380x718.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/2/9/2911188c7665b77291f2856b508ae31e0395ca0b_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Workflows</span><span class="informations">5120×2664 1.99 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Database-Manager">Database Manager</h3>
+<p>In the Database Manager you have a great visual overview of all your database tables, history of your changes, and database seeds. You can create new tables and fields or edit the data in your database.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/8/9/893ffd54d8ddbbce6e50617024a0774b463164ef.jpeg" data-download-href="https://community.wappler.io/uploads/default/893ffd54d8ddbbce6e50617024a0774b463164ef" title="Database manager"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/8/9/893ffd54d8ddbbce6e50617024a0774b463164ef_2_690x359.jpeg" alt="Database manager" data-base62-sha1="jAavEj1e3tLQ5sMGBUJsv1nBuPR" width="690" height="359" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/8/9/893ffd54d8ddbbce6e50617024a0774b463164ef_2_690x359.jpeg, https://community.wappler.io/uploads/default/optimized/3X/8/9/893ffd54d8ddbbce6e50617024a0774b463164ef_2_1035x538.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/8/9/893ffd54d8ddbbce6e50617024a0774b463164ef_2_1380x718.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/8/9/893ffd54d8ddbbce6e50617024a0774b463164ef_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Database manager</span><span class="informations">5120×2664 1.91 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Routes">Routes</h3>
+<p>The Routes Panel allows you to create SEO friendly URLs for your websites, using the visual URL Rewriting options.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/a/5/a5878d417ca10c56881bf6a459091e0c43572c88.jpeg" data-download-href="https://community.wappler.io/uploads/default/a5878d417ca10c56881bf6a459091e0c43572c88" title="Routes"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/a/5/a5878d417ca10c56881bf6a459091e0c43572c88_2_690x358.jpeg" alt="Routes" data-base62-sha1="nClcsxPy0wptlK7UDJXWdg0K6zC" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/a/5/a5878d417ca10c56881bf6a459091e0c43572c88_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/a/5/a5878d417ca10c56881bf6a459091e0c43572c88_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/a/5/a5878d417ca10c56881bf6a459091e0c43572c88_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/a/5/a5878d417ca10c56881bf6a459091e0c43572c88_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Routes</span><span class="informations">5118×2662 1.93 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Theme-Manager">Theme Manager</h3>
+<p>The Theme Manager allows you to build custom styles by selecting different colors, Google fonts, styling options, and more.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/3/9/393d469af2c529f485aaf3fd5a5ec9690a2d6318.jpeg" data-download-href="https://community.wappler.io/uploads/default/393d469af2c529f485aaf3fd5a5ec9690a2d6318" title="Theme manager"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/3/9/393d469af2c529f485aaf3fd5a5ec9690a2d6318_2_690x359.jpeg" alt="Theme manager" data-base62-sha1="8amuUG2ET0Cxtw2TYhRDz5nybNe" width="690" height="359" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/3/9/393d469af2c529f485aaf3fd5a5ec9690a2d6318_2_690x359.jpeg, https://community.wappler.io/uploads/default/optimized/3X/3/9/393d469af2c529f485aaf3fd5a5ec9690a2d6318_2_1035x538.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/3/9/393d469af2c529f485aaf3fd5a5ec9690a2d6318_2_1380x718.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/3/9/393d469af2c529f485aaf3fd5a5ec9690a2d6318_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Theme manager</span><span class="informations">5120×2666 2.1 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Resource-Manager">Resource Manager</h3>
+<p>The Resource Manager lets you organize all your project related resource in a single place, from cloud servers, database servers, storage solutions to local services.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/e/3/e34cf5dd22e08ea3dba8ac118c9012d3fbe95f1d.jpeg" data-download-href="https://community.wappler.io/uploads/default/e34cf5dd22e08ea3dba8ac118c9012d3fbe95f1d" title="Resource manager"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/e/3/e34cf5dd22e08ea3dba8ac118c9012d3fbe95f1d_2_690x359.jpeg" alt="Resource manager" data-base62-sha1="wqNgUg7sUTeTLFtqDt7FK3njBp3" width="690" height="359" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/e/3/e34cf5dd22e08ea3dba8ac118c9012d3fbe95f1d_2_690x359.jpeg, https://community.wappler.io/uploads/default/optimized/3X/e/3/e34cf5dd22e08ea3dba8ac118c9012d3fbe95f1d_2_1035x538.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/e/3/e34cf5dd22e08ea3dba8ac118c9012d3fbe95f1d_2_1380x718.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/e/3/e34cf5dd22e08ea3dba8ac118c9012d3fbe95f1d_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Resource manager</span><span class="informations">5120×2664 2.09 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Project-Settings">Project Settings</h3>
+<p>The Project Settings allows you to change all the settings for your project, like the framework, assets folder, server model and much more.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/3/0/30e5621520965a28db6f14095d16d72c0b09607b.jpeg" data-download-href="https://community.wappler.io/uploads/default/30e5621520965a28db6f14095d16d72c0b09607b" title="Project settings"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/3/0/30e5621520965a28db6f14095d16d72c0b09607b_2_690x359.jpeg" alt="Project settings" data-base62-sha1="6YymV3rLou8vazg3w7tW7yTqa95" width="690" height="359" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/3/0/30e5621520965a28db6f14095d16d72c0b09607b_2_690x359.jpeg, https://community.wappler.io/uploads/default/optimized/3X/3/0/30e5621520965a28db6f14095d16d72c0b09607b_2_1035x538.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/3/0/30e5621520965a28db6f14095d16d72c0b09607b_2_1380x718.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/3/0/30e5621520965a28db6f14095d16d72c0b09607b_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Project settings</span><span class="informations">5120×2666 1.65 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Project-Manager">Project Manager</h3>
+<p>You can see your current project name, edit the current project options, load a different project, or create a new one.</p>
+<blockquote>
+<p>The project manager also supports importing Dreamweaver site definitions (.ste files)</p>
+</blockquote>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/0/9/09366d8a7e7d39ee5f01cd593ccd41fc36d4d9b5.jpeg" data-download-href="https://community.wappler.io/uploads/default/09366d8a7e7d39ee5f01cd593ccd41fc36d4d9b5" title="Project manager"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/0/9/09366d8a7e7d39ee5f01cd593ccd41fc36d4d9b5_2_689x359.jpeg" alt="Project manager" data-base62-sha1="1juUk7vgtCzIMfyW0z1LwTFszVb" width="689" height="359" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/0/9/09366d8a7e7d39ee5f01cd593ccd41fc36d4d9b5_2_689x359.jpeg, https://community.wappler.io/uploads/default/optimized/3X/0/9/09366d8a7e7d39ee5f01cd593ccd41fc36d4d9b5_2_1033x538.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/0/9/09366d8a7e7d39ee5f01cd593ccd41fc36d4d9b5_2_1378x718.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/0/9/09366d8a7e7d39ee5f01cd593ccd41fc36d4d9b5_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Project manager</span><span class="informations">5116×2662 1.63 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Extentions">Extentions</h3>
+<p>In the Extensions panel you will find all the components included with Wappler.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/6/8/687183862e4768e808c89fb32d43a6d39f526157.jpeg" data-download-href="https://community.wappler.io/uploads/default/687183862e4768e808c89fb32d43a6d39f526157" title="Extensions"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/6/8/687183862e4768e808c89fb32d43a6d39f526157_2_690x358.jpeg" alt="Extensions" data-base62-sha1="eTWRgbsqqbPxTCCdYKctNGDdp1J" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/6/8/687183862e4768e808c89fb32d43a6d39f526157_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/6/8/687183862e4768e808c89fb32d43a6d39f526157_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/6/8/687183862e4768e808c89fb32d43a6d39f526157_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/6/8/687183862e4768e808c89fb32d43a6d39f526157_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Extensions</span><span class="informations">5120×2662 1.87 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Options">Options</h3>
+<p>These are the general options for Wappler. Here you can customize different settings such as - Code Editor, Design View, FTP, System and more.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/0/7/07a0b5b1826e12bb21900daabdf4ddfba8aa62c6.jpeg" data-download-href="https://community.wappler.io/uploads/default/07a0b5b1826e12bb21900daabdf4ddfba8aa62c6" title="Options"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/0/7/07a0b5b1826e12bb21900daabdf4ddfba8aa62c6_2_690x358.jpeg" alt="Options" data-base62-sha1="15tF07J6HWImx5KwOTTx97jShO6" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/0/7/07a0b5b1826e12bb21900daabdf4ddfba8aa62c6_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/0/7/07a0b5b1826e12bb21900daabdf4ddfba8aa62c6_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/0/7/07a0b5b1826e12bb21900daabdf4ddfba8aa62c6_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/0/7/07a0b5b1826e12bb21900daabdf4ddfba8aa62c6_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Options</span><span class="informations">5120×2658 1.68 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Your-profile">Your profile</h3>
+<p>Here you will find your profile information like your name, your licence and button to go to your online profile.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/e/5/e5589237a9bda6e7d2ce431bc5e1b181c01eb87d.jpeg" data-download-href="https://community.wappler.io/uploads/default/e5589237a9bda6e7d2ce431bc5e1b181c01eb87d" title="Your profile"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/e/5/e5589237a9bda6e7d2ce431bc5e1b181c01eb87d_2_690x358.jpeg" alt="Your profile" data-base62-sha1="wIT6q85vKKPtvCJ9Y80enwYctJ3" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/e/5/e5589237a9bda6e7d2ce431bc5e1b181c01eb87d_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/e/5/e5589237a9bda6e7d2ce431bc5e1b181c01eb87d_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/e/5/e5589237a9bda6e7d2ce431bc5e1b181c01eb87d_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/e/5/e5589237a9bda6e7d2ce431bc5e1b181c01eb87d_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Your profile</span><span class="informations">5120×2660 1.97 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Component-Edit-Mode">Component Edit Mode</h3>
+<p>When in component edit mode you can add different components on the page using the add component buttons, located before/after the element which you select.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/6/3/6324fb47e2e21c4d63309a475e44d2e9adabfb11.jpeg" data-download-href="https://community.wappler.io/uploads/default/6324fb47e2e21c4d63309a475e44d2e9adabfb11" title="Component Edit Tool"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/6/3/6324fb47e2e21c4d63309a475e44d2e9adabfb11_2_689x359.jpeg" alt="Component Edit Tool" data-base62-sha1="e94v8vwvM9nx4XKOC3bxZFLH9YJ" width="689" height="359" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/6/3/6324fb47e2e21c4d63309a475e44d2e9adabfb11_2_689x359.jpeg, https://community.wappler.io/uploads/default/optimized/3X/6/3/6324fb47e2e21c4d63309a475e44d2e9adabfb11_2_1033x538.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/6/3/6324fb47e2e21c4d63309a475e44d2e9adabfb11_2_1378x718.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/6/3/6324fb47e2e21c4d63309a475e44d2e9adabfb11_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Component Edit Tool</span><span class="informations">5116×2668 2.07 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Text-Edit-Mode">Text Edit Mode</h3>
+<p>While in text edit mode, you can change any text on the page with a single click. You can also apply styling to it.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/4/a/4a6aa3469b8b3b74f7e3451d61b3046e35608945.jpeg" data-download-href="https://community.wappler.io/uploads/default/4a6aa3469b8b3b74f7e3451d61b3046e35608945" title="Text Edit Mode"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/4/a/4a6aa3469b8b3b74f7e3451d61b3046e35608945_2_690x358.jpeg" alt="Text Edit Mode" data-base62-sha1="aCjNNE2ZOUGzesz5dcWxdKknRkh" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/4/a/4a6aa3469b8b3b74f7e3451d61b3046e35608945_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/4/a/4a6aa3469b8b3b74f7e3451d61b3046e35608945_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/4/a/4a6aa3469b8b3b74f7e3451d61b3046e35608945_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/4/a/4a6aa3469b8b3b74f7e3451d61b3046e35608945_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Text Edit Mode</span><span class="informations">5120×2660 1.99 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Inspect-Mode">Inspect Mode</h3>
+<p>The inspect mode provides useful information about the styles of an element such as size, margin, padding. You can also measure distances, relative to the selected element.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/9/2/9261f9532f612ef137669e52c44eda230d412fc0.jpeg" data-download-href="https://community.wappler.io/uploads/default/9261f9532f612ef137669e52c44eda230d412fc0" title="Inspect Mode"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/9/2/9261f9532f612ef137669e52c44eda230d412fc0_2_690x358.jpeg" alt="Inspect Mode" data-base62-sha1="kSXCmRZtKmyljyfFZZPjKnNRnVe" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/9/2/9261f9532f612ef137669e52c44eda230d412fc0_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/9/2/9261f9532f612ef137669e52c44eda230d412fc0_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/9/2/9261f9532f612ef137669e52c44eda230d412fc0_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/9/2/9261f9532f612ef137669e52c44eda230d412fc0_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Inspect Mode</span><span class="informations">5120×2660 2.18 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Accessibility-Mode">Accessibility Mode</h3>
+<p>In accessibility mode you can check the accessibility attributes and compliance status of an element. Along with the foreground and background color, you can see the contrast ratio and the WCAG Compliance status.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/0/d/0d37093e13e8832788acd9b8cca3835d586a8984.jpeg" data-download-href="https://community.wappler.io/uploads/default/0d37093e13e8832788acd9b8cca3835d586a8984" title="Accessibility Mode"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/0/d/0d37093e13e8832788acd9b8cca3835d586a8984_2_690x358.jpeg" alt="Accessibility Mode" data-base62-sha1="1SU7wKFRq7LVDSLLuuivsOVUkO8" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/0/d/0d37093e13e8832788acd9b8cca3835d586a8984_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/0/d/0d37093e13e8832788acd9b8cca3835d586a8984_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/0/d/0d37093e13e8832788acd9b8cca3835d586a8984_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/0/d/0d37093e13e8832788acd9b8cca3835d586a8984_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Accessibility Mode</span><span class="informations">5118×2660 2.08 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<blockquote>
+<p>The color contrast between background and foreground content (that is, usually text) should be great enough to ensure legibility. Learn more here: <a href="https://www.w3.org/TR/WCAG21/#dfn-contrast-ratio">https://www.w3.org/TR/WCAG21/#dfn-contrast-ratio</a></p>
+</blockquote>
+<blockquote>
+<p>Web Content Accessibility Guidelines (WCAG) are a recommendation published by the Web Accessibility Initiative group at the W3C. They outline a set of guidelines for making content accessible primarily for people with disabilities but also for limited-resource devices such as mobile phones.</p>
+</blockquote>
+<blockquote>
+<p><strong>There are three levels of conformance:</strong><br>
+Level A is the minimum level.<br>
+Level AA includes all Level A and AA requirements.<br>
+Level AAA includes all Level A, AA, and AAA requirements.<br>
+Learn more here: <a href="https://www.w3.org/WAI/WCAG2AAA-Conformance">https://www.w3.org/WAI/WCAG2AAA-Conformance</a></p>
+</blockquote>
+<h3 id="Preview-mode">Preview mode</h3>
+<p>Preview mode allows you to preview and interact with your page(s) the same way as in your browser - you can see the dynamic data rendered, you can click on buttons and follow links. Content editing is not possible in this mode.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/3/0/3012c338d737a26c05fdfbe851b0c42f9a6056e0.jpeg" data-download-href="https://community.wappler.io/uploads/default/3012c338d737a26c05fdfbe851b0c42f9a6056e0" title="Preview Mode"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/3/0/3012c338d737a26c05fdfbe851b0c42f9a6056e0_2_690x350.jpeg" alt="Preview Mode" data-base62-sha1="6Rh7gEOzTm3X2TCcujKjYxFvE9q" width="690" height="350" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/3/0/3012c338d737a26c05fdfbe851b0c42f9a6056e0_2_690x350.jpeg, https://community.wappler.io/uploads/default/optimized/3X/3/0/3012c338d737a26c05fdfbe851b0c42f9a6056e0_2_1035x525.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/3/0/3012c338d737a26c05fdfbe851b0c42f9a6056e0_2_1380x700.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/3/0/3012c338d737a26c05fdfbe851b0c42f9a6056e0_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Preview Mode</span><span class="informations">5120×2600 2.01 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h2 id="Right-Side">Right Side</h2>
+<p>The panels located on the right side of the Wappler window are related to your page, design and front-end workflows. Expand the panel, by clicking the expand button.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/1/5/1575fd4aeb27c47127e3ae995fa9aea039e0a44d.jpeg" data-download-href="https://community.wappler.io/uploads/default/1575fd4aeb27c47127e3ae995fa9aea039e0a44d" title="Open panel right side"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/1/5/1575fd4aeb27c47127e3ae995fa9aea039e0a44d_2_690x358.jpeg" alt="Open panel right side" data-base62-sha1="33QOIBvcnFaCT3BvKC3duJcJRMx" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/1/5/1575fd4aeb27c47127e3ae995fa9aea039e0a44d_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/1/5/1575fd4aeb27c47127e3ae995fa9aea039e0a44d_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/1/5/1575fd4aeb27c47127e3ae995fa9aea039e0a44d_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/1/5/1575fd4aeb27c47127e3ae995fa9aea039e0a44d_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Open panel right side</span><span class="informations">5118×2658 1.86 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="App-Structure">App Structure</h3>
+<p>The App Structure Panel is one of the most important parts of Wappler and probably the most used one. This is where you design the web site/app structure and appearance. Add elements and components on the page, adjust their dedicated properties in the properties panel.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/3/e/3e4b920f1b5bb6ac53c13b6ad99fccaf82ac3f22.jpeg" data-download-href="https://community.wappler.io/uploads/default/3e4b920f1b5bb6ac53c13b6ad99fccaf82ac3f22" title="App structure"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/3/e/3e4b920f1b5bb6ac53c13b6ad99fccaf82ac3f22_2_690x358.jpeg" alt="App structure" data-base62-sha1="8T5vLjHJkQKVjshVJW6BNtdGEAG" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/3/e/3e4b920f1b5bb6ac53c13b6ad99fccaf82ac3f22_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/3/e/3e4b920f1b5bb6ac53c13b6ad99fccaf82ac3f22_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/3/e/3e4b920f1b5bb6ac53c13b6ad99fccaf82ac3f22_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/3/e/3e4b920f1b5bb6ac53c13b6ad99fccaf82ac3f22_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">App structure</span><span class="informations">5120×2662 2.09 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Design">Design</h3>
+<p>The design panel provides you with visual tools to style your page content. Here you can adjust the layout, position, text, background, colours, borders and many other CSS properties for any element on the page. You can design for different screen sizes, which creates the required styles and media queries for the selected device.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/9/f/9f2b66846551182a2899442a140a6da42241b7c4.jpeg" data-download-href="https://community.wappler.io/uploads/default/9f2b66846551182a2899442a140a6da42241b7c4" title="Design"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/9/f/9f2b66846551182a2899442a140a6da42241b7c4_2_690x358.jpeg" alt="Design" data-base62-sha1="mI4TYzbUbvavaWnDN3r8TpPB8Jm" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/9/f/9f2b66846551182a2899442a140a6da42241b7c4_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/9/f/9f2b66846551182a2899442a140a6da42241b7c4_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/9/f/9f2b66846551182a2899442a140a6da42241b7c4_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/9/f/9f2b66846551182a2899442a140a6da42241b7c4_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Design</span><span class="informations">5120×2660 2.08 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Styles">Styles</h3>
+<p>The styles panel allows you to write your own custom CSS rules, if you ever feel the need to write your own CSS by hand.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/2/6/26fcf8f57d0480f2337333cc1c8a21f190827ba3.jpeg" data-download-href="https://community.wappler.io/uploads/default/26fcf8f57d0480f2337333cc1c8a21f190827ba3" title="Styles"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/2/6/26fcf8f57d0480f2337333cc1c8a21f190827ba3_2_690x358.jpeg" alt="Styles" data-base62-sha1="5yU8mKjxV1pN8H6fs2bklcMG8JJ" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/2/6/26fcf8f57d0480f2337333cc1c8a21f190827ba3_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/2/6/26fcf8f57d0480f2337333cc1c8a21f190827ba3_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/2/6/26fcf8f57d0480f2337333cc1c8a21f190827ba3_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/2/6/26fcf8f57d0480f2337333cc1c8a21f190827ba3_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Styles</span><span class="informations">5120×2658 2.25 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="DOM">DOM</h3>
+<p>Unlike the App Structure Panel, which shows you only the components and properties of the frameworks you are using on your page, the DOM Panel gives access to all common HTML elements and their properties or attributes. This is where you will find properties that were not available in the App Structure panel.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/c/5/c5b68473be161063fabcbffd470badb028476760.jpeg" data-download-href="https://community.wappler.io/uploads/default/c5b68473be161063fabcbffd470badb028476760" title="DOM"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/c/5/c5b68473be161063fabcbffd470badb028476760_2_690x350.jpeg" alt="DOM" data-base62-sha1="sd36ppDyN7hTuRU2b3AUwD1UxPi" width="690" height="350" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/c/5/c5b68473be161063fabcbffd470badb028476760_2_690x350.jpeg, https://community.wappler.io/uploads/default/optimized/3X/c/5/c5b68473be161063fabcbffd470badb028476760_2_1035x525.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/c/5/c5b68473be161063fabcbffd470badb028476760_2_1380x700.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/c/5/c5b68473be161063fabcbffd470badb028476760_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">DOM</span><span class="informations">5120×2598 2.07 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Theme-Options">Theme Options</h3>
+<p>Click on the drop-icon to change your Wappler theme. We offer many options including themes from older Wappler versions and light- and darkmode.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/d/e/deae21eb553a5bc688037b69a2b88fe7a5dc0aec.jpeg" data-download-href="https://community.wappler.io/uploads/default/deae21eb553a5bc688037b69a2b88fe7a5dc0aec" title="Themes Wappler"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/d/e/deae21eb553a5bc688037b69a2b88fe7a5dc0aec_2_690x179.jpeg" alt="Themes Wappler" data-base62-sha1="vLV4GAds41cQjzgY2VBCsNDDDpG" width="690" height="179" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/d/e/deae21eb553a5bc688037b69a2b88fe7a5dc0aec_2_690x179.jpeg, https://community.wappler.io/uploads/default/optimized/3X/d/e/deae21eb553a5bc688037b69a2b88fe7a5dc0aec_2_1035x268.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/d/e/deae21eb553a5bc688037b69a2b88fe7a5dc0aec_2_1380x358.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/d/e/deae21eb553a5bc688037b69a2b88fe7a5dc0aec_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Themes Wappler</span><span class="informations">5000×1300 1.63 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h2 id="Bottom">Bottom</h2>
+<h3 id="Publish-and-Terminal">Publish and Terminal</h3>
+<p>Here you will find the publish panel and the terminal. You can define your project settings, acces Node packages, targets and publish or sync your site/app to the selected target.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/d/c/dc78d9f343d9cbb85c23279e3f05b1bec95d7ec5.jpeg" data-download-href="https://community.wappler.io/uploads/default/dc78d9f343d9cbb85c23279e3f05b1bec95d7ec5" title="Publish and Terminal"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/d/c/dc78d9f343d9cbb85c23279e3f05b1bec95d7ec5_2_690x358.jpeg" alt="Publish and Terminal" data-base62-sha1="vsnXUGSviMui1ld18T9UTN3UIBf" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/d/c/dc78d9f343d9cbb85c23279e3f05b1bec95d7ec5_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/d/c/dc78d9f343d9cbb85c23279e3f05b1bec95d7ec5_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/d/c/dc78d9f343d9cbb85c23279e3f05b1bec95d7ec5_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/d/c/dc78d9f343d9cbb85c23279e3f05b1bec95d7ec5_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Publish and Terminal</span><span class="informations">5120×2662 1.58 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h2 id="Top">Top</h2>
+<p>The top toolbar of Wappler offers you different options related to your project, design and site/app preview.</p>
+<h3 id="Project-Manager">Project Manager</h3>
+<p>You can see your current project name, edit the current project options, load a different project, or create a new one. The project manager also supports importing Dreamweaver site definitions (.ste files).</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/a/b/abf47cff8145e0b7c6e6e304520f3cfa4ede8b9e.jpeg" data-download-href="https://community.wappler.io/uploads/default/abf47cff8145e0b7c6e6e304520f3cfa4ede8b9e" title="Project Manager"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/a/b/abf47cff8145e0b7c6e6e304520f3cfa4ede8b9e_2_690x358.jpeg" alt="Project Manager" data-base62-sha1="oxbsAGIoobY6ypEcdCHBxTerXs2" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/a/b/abf47cff8145e0b7c6e6e304520f3cfa4ede8b9e_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/a/b/abf47cff8145e0b7c6e6e304520f3cfa4ede8b9e_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/a/b/abf47cff8145e0b7c6e6e304520f3cfa4ede8b9e_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/a/b/abf47cff8145e0b7c6e6e304520f3cfa4ede8b9e_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Project Manager</span><span class="informations">5120×2660 1.72 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Design-view">Design view</h3>
+<p>Probably the most important part of Wappler’s interface, where you see your design fully rendered. Here you can see how your website or app looks, you can visually add elements (inside, before or after) the selected element, duplicate whole blocks of content or delete anything from the page or app layout, and so much more.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/6/9/6934f33da78c9703b5995bc3b22764735f82155a.jpeg" data-download-href="https://community.wappler.io/uploads/default/6934f33da78c9703b5995bc3b22764735f82155a" title="Design view"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/6/9/6934f33da78c9703b5995bc3b22764735f82155a_2_690x358.jpeg" alt="Design view" data-base62-sha1="f0HzVWHhWOtiAuyHlYgubfzd4ro" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/6/9/6934f33da78c9703b5995bc3b22764735f82155a_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/6/9/6934f33da78c9703b5995bc3b22764735f82155a_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/6/9/6934f33da78c9703b5995bc3b22764735f82155a_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/6/9/6934f33da78c9703b5995bc3b22764735f82155a_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Design view</span><span class="informations">5120×2662 1.95 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Code-view">Code view</h3>
+<p>Wappler generates clean semantic HTML, CSS and JS code, which you can modify directly in Code View, if you feel comfortable to do so.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/8/3/834d300fbfae67bbc6174ff3d471b7f6b621306e.png" data-download-href="https://community.wappler.io/uploads/default/834d300fbfae67bbc6174ff3d471b7f6b621306e" title="Code view"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/8/3/834d300fbfae67bbc6174ff3d471b7f6b621306e_2_690x358.png" alt="Code view" data-base62-sha1="iJxVctlHOGDRUh1t1g6BRrmQy3c" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/8/3/834d300fbfae67bbc6174ff3d471b7f6b621306e_2_690x358.png, https://community.wappler.io/uploads/default/optimized/3X/8/3/834d300fbfae67bbc6174ff3d471b7f6b621306e_2_1035x537.png 1.5x, https://community.wappler.io/uploads/default/optimized/3X/8/3/834d300fbfae67bbc6174ff3d471b7f6b621306e_2_1380x716.png 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/8/3/834d300fbfae67bbc6174ff3d471b7f6b621306e_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Code view</span><span class="informations">5120×2660 1.3 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Split-view">Split view</h3>
+<p>Split View offers a mix of Design and Code views. You can edit the code and see the changes directly in the design part, or vice-versa.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/d/f/dffd82e4daaf2b4893a570070f31a0ec506a45f2.jpeg" data-download-href="https://community.wappler.io/uploads/default/dffd82e4daaf2b4893a570070f31a0ec506a45f2" title="Split view"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/d/f/dffd82e4daaf2b4893a570070f31a0ec506a45f2_2_690x358.jpeg" alt="Split view" data-base62-sha1="vXvCwz62dJ9jydliAiOZSFE2UAa" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/d/f/dffd82e4daaf2b4893a570070f31a0ec506a45f2_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/d/f/dffd82e4daaf2b4893a570070f31a0ec506a45f2_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/d/f/dffd82e4daaf2b4893a570070f31a0ec506a45f2_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/d/f/dffd82e4daaf2b4893a570070f31a0ec506a45f2_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Split view</span><span class="informations">5120×2662 2.69 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Make-project-thumbnail">Make project thumbnail</h3>
+<p>This option takes a “screenshot” of your project and will use it as a project thumbnail, the thumbnails you see at the Project Manager</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/5/3/53e48855eb2f5d27d37c9cd277b634393581c8e6.jpeg" data-download-href="https://community.wappler.io/uploads/default/53e48855eb2f5d27d37c9cd277b634393581c8e6" title="Project thumbnail"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/5/3/53e48855eb2f5d27d37c9cd277b634393581c8e6_2_690x358.jpeg" alt="Project thumbnail" data-base62-sha1="bY9g2Py3hpta92miyUobSear1IO" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/5/3/53e48855eb2f5d27d37c9cd277b634393581c8e6_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/5/3/53e48855eb2f5d27d37c9cd277b634393581c8e6_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/5/3/53e48855eb2f5d27d37c9cd277b634393581c8e6_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/5/3/53e48855eb2f5d27d37c9cd277b634393581c8e6_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Project thumbnail</span><span class="informations">5120×2660 2.06 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h3 id="Responsive-options">Responsive options</h3>
+<p>You can preview how your site or app looks on different devices, using the responsive options in the top toolbar.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/5/6/56e4b2ca8285480445feaf85fb277237bb69bed0.png" data-download-href="https://community.wappler.io/uploads/default/56e4b2ca8285480445feaf85fb277237bb69bed0" title="Responsive options"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/5/6/56e4b2ca8285480445feaf85fb277237bb69bed0_2_690x358.png" alt="Responsive options" data-base62-sha1="coH2SQwowMNoHqXOotxjhQD3Cne" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/5/6/56e4b2ca8285480445feaf85fb277237bb69bed0_2_690x358.png, https://community.wappler.io/uploads/default/optimized/3X/5/6/56e4b2ca8285480445feaf85fb277237bb69bed0_2_1035x537.png 1.5x, https://community.wappler.io/uploads/default/optimized/3X/5/6/56e4b2ca8285480445feaf85fb277237bb69bed0_2_1380x716.png 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/5/6/56e4b2ca8285480445feaf85fb277237bb69bed0_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Responsive options</span><span class="informations">5120×2662 2.62 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>
+<h2 id="Options-top-right">Options top right</h2>
+<p>On the top right you will find the following options from left to right:</p>
+<h3 id="Toggle-App-Connect-mode">Toggle App Connect mode</h3>
+<p>App Connect is a high performance front-end framework just as powerful as React, Angular and VueJS. App Connect however is much easier to use due to it’s custom component structure and HTML5 attribute bindings. This toggle will turn on or off the live view of it.</p>
+<h3 id="Open-in-Browser">Open in Browser</h3>
+<p>Opens your project in a browser. This way you can check your website live.</p>
+<h3 id="Show-QR-Code-for-preview">Show QR Code for preview</h3>
+<p>With this tool you can scan a QR code of your project to check it on another device.</p>
+<h3 id="Reload-Design-view">Reload Design view</h3>
+<p>An hard refresh for your design view.</p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://community.wappler.io/uploads/default/original/3X/9/4/94afc9ef7eaf14762a8e7898523c6d77b58ac816.jpeg" data-download-href="https://community.wappler.io/uploads/default/94afc9ef7eaf14762a8e7898523c6d77b58ac816" title="Options top right"><img class="lazyload" data-src="https://community.wappler.io/uploads/default/optimized/3X/9/4/94afc9ef7eaf14762a8e7898523c6d77b58ac816_2_690x358.jpeg" alt="Options top right" data-base62-sha1="ldli4cFblbXTDDy7lMID1aNuchE" width="690" height="358" data-srcset="https://community.wappler.io/uploads/default/optimized/3X/9/4/94afc9ef7eaf14762a8e7898523c6d77b58ac816_2_690x358.jpeg, https://community.wappler.io/uploads/default/optimized/3X/9/4/94afc9ef7eaf14762a8e7898523c6d77b58ac816_2_1035x537.jpeg 1.5x, https://community.wappler.io/uploads/default/optimized/3X/9/4/94afc9ef7eaf14762a8e7898523c6d77b58ac816_2_1380x716.jpeg 2x" data-small-upload="https://community.wappler.io/uploads/default/optimized/3X/9/4/94afc9ef7eaf14762a8e7898523c6d77b58ac816_2_10x10.png"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use xlink:href="#far-image"></use></svg><span class="filename">Options top right</span><span class="informations">5120×2660 2.06 MB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use xlink:href="#discourse-expand"></use></svg></div></a></div></p>      </main>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script src="/js/lazysizes.min.js" async=""></script>
+  <script src="/js/jquery.magnific-popup.js"></script>
+  <script src="/js/docs.js?_1709433964913"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1832653-18"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'UA-1832653-18');
+  </script>
+</body>
+
+</html>

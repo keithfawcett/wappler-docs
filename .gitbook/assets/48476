@@ -1,0 +1,1775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Wappler Documentation - Resources and Tips for Beginners to Wappler</title>
+
+  <meta name="description" content="Intro This Guide This will be about getting started with Wappler when coming from a non-coding background. This isn’t a tutorial on how to make a site or anything (although those are linked), more talking about what’s involved and a general collection of resources I found useful. As a heads up, I...">
+
+  <meta name="og:site_name" content="Wappler Documentation">
+  <meta name="og:image" content="/user_avatar/community.wappler.io/jonl/40/50707_2.png">
+  <meta name="og:url" content="https://community.wappler.io/t/resources-and-tips-for-beginners-to-wappler/48476/1">
+  <meta name="og:title" content="Resources and Tips for Beginners to Wappler">
+  <meta name="og:description" content="Intro This Guide This will be about getting started with Wappler when coming from a non-coding background. This isn’t a tutorial on how to make a site or anything (although those are linked), more talking about what’s involved and a general collection of resources I found useful. As a heads up, I...">
+  <meta name="og:ignore_canonical" content="true">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="/user_avatar/community.wappler.io/jonl/40/50707_2.png">
+  <meta name="twitter:url" content="https://community.wappler.io/t/resources-and-tips-for-beginners-to-wappler/48476/1">
+  <meta name="twitter:title" content="Resources and Tips for Beginners to Wappler">
+  <meta name="twitter:description" content="Intro This Guide This will be about getting started with Wappler when coming from a non-coding background. This isn’t a tutorial on how to make a site or anything (although those are linked), more talking about what’s involved and a general collection of resources I found useful. As a heads up, I...">
+
+  <link rel="icon" type="image/png" href="https://wappler.io/favicon.png">
+  <link rel="conanical" href="https://community.wappler.io/t/resources-and-tips-for-beginners-to-wappler/48476">
+
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/default.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/fa5.min.css">
+  <link rel="stylesheet" href="/css/magnific-popup.css">
+  <link rel="stylesheet" href="/css/style.css?_1709433964913">
+</head>
+
+<body>
+  <header class="page-header">
+    <nav id="top-nav" class="navbar navbar-expand-lg navbar-dark bg-gray-dark shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://wappler.io">
+            <img height="26" src="/img/wappler-logo.svg">
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse1" aria-controls="collapse1" aria-expanded="false" aria-label="Toggle navigation" is="dmx-button" value="" type="button"><i class="far fa-bars fa-lg text-red"></i></button>
+            <div id="collapse1" class="collapse navbar-collapse justify-content-end">
+              <div class="navbar-nav mr-lg-5 pt-3 pt-lg-0">
+                <a class="nav-item nav-link" href="https://wappler.io/features">Features</a>
+                <a class="nav-item nav-link" href="https://wappler.io/pricing">Pricing</a>
+                <a class="nav-item nav-link active" href="https://docs.wappler.io">Docs</a>
+                <a class="nav-item nav-link" href="https://community.wappler.io">Community</a>
+                <a class="nav-item nav-link" href="https://medium.com/wappler-io">Blog</a>
+                <a class="btn btn-light ms-0 ms-lg-3" href="https://account5.wappler.io">Account <i class="ms-1 fas fa-user"></i></a>
+              </div>
+            </div>
+        </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="row flex-xl-nowrap">
+      <div class="col-12 col-md-3 col-xl-3 docs-sidebar">
+        <div class="docs-search">
+          <input id="search" type="search" class="form-control" autocomplete="off" spellcheck="false" placeholder="Search...">
+          <button class="navbar-toggler d-md-none p-0 ml-3 text-red" data-toggle="collapse" data-target="#docs-nav" aria-controls="nav-top" aria-expanded="false" aria-label="Toggle navigation" type="button">TOC</button>
+          <div id="results"></div>
+        </div>
+
+        <nav id="docs-nav" class="collapse docs-links">
+          
+            <div class="docs-toc-item active">
+              <a class="docs-toc-link" href="/">Introduction to Wappler</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/wapplers-user-interface/2792">Wappler's User Interface</a>
+                  </li>
+                
+                  <li class="active">
+                    <a href="/t/resources-and-tips-for-beginners-to-wappler/48476">Resources and Tips for Beginners to Wappler</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/wappler-the-visual-web-app-creator/2791">Getting Started</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/purchasing-a-wappler-license/44835">Purchasing a Wappler License</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/how-to-download-wappler/12413">Download and Install Wappler</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/introducing-wappler-wallet/45465">Introducing Wappler Wallet</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/wappler-shortcut-keys/3245">Wappler Shortcut Keys</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/app-connect-introduction/2840">App Connect Introduction</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-integration/2926">Bootstrap Integration</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-file-manager/12404">Using the File Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-design-panel/6892">Using the Design Panel</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-css-styles-panel/2925">Using the CSS Styles Panel</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/accessing-the-dom-tree/2923">Accessing the DOM Tree</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/migrating-dreamweaver-site-definitions-into-wappler/2922">Migrating Dreamweaver Site Definitions into Wappler</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setting-up-a-lightweight-dev-environment-with-nodejs-and-sqlite/36189">Setting Up a Lightweight Dev Environment with NodeJS and SQLite</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/project-manager/2825">Project Manager</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/creating-a-new-local-project/2909">Creating a New Local Project</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/switching-between-projects/2907">Switching between Projects</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/removing-projects/2906">Removing Projects</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setting-up-ftp-connection/5631">Setting up FTP Connection</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-wappler-project-based-on-existing-git-repository/25996">Creating a Wappler project based on existing Git Repository</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-wappler-extensions-channels-for-beta-testing/40357">Using Wappler Extensions Channels for Beta Testing</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/how-to-reset-your-project-default-frameworks/40358">How to Reset Your Project Default Frameworks</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/how-to-guides/2824">How-To Guides</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/adding-app-connect/2921">Adding App Connect</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-bootstrap-4/2920">Adding Bootstrap 4</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-project-default-frameworks/10650">Adding Project Default Frameworks</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/working-with-elements-on-your-pages/2919">Working with Elements on your pages</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-class-or-id/2916">Adding Class or ID</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-margin-and-padding/2915">Applying Margin and Padding</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/inserting-common-html-tags/2910">Inserting Common HTML Tags</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-responsive-images/2914">Applying Responsive Images</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/drag-drop-elements/2911">Drag &amp; Drop Elements</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/dynamic-attributes/2912">Dynamic Attributes</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/defining-and-using-url-parameters/2913">Defining and Using URL Parameters</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/formatting-dynamic-data-for-client-side-display/2870">Formatting Dynamic Data for Client Side Display</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-font-awesome/3751">Using Font Awesome</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-font-awesome-5-pro/3752">Using Font Awesome 5 Pro</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-or-hide-elements-conditionally/36361">Show or Hide Elements Conditionally</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-a-message-when-query-returns-no-results/4118">Show a Message when Query Returns No Results</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-total-number-of-records-from-a-query/4121">Show Total Number of Records from a Query</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-shortcut-keys-for-dynamic-events/4161">Using Shortcut Keys for Dynamic Events</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/responsive-images-with-srcset/4368">Responsive Images with Lazy Load and srcset</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/vertical-navigation/4524">Vertical Navigation</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/sticky-navigation-on-scroll/4550">Sticky Navigation on Scroll</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/overlaying-text-on-image/6128">Overlaying Text on Image</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/styling-bootstrap-4-buttons/6165">Styling Bootstrap 4 Buttons</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/formatting-data-in-dynamic-tables/4825">Formatting Data in Dynamic Tables</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/set-table-row-background-color-with-dynamic-value/4846">Set Table Row Background Color with Dynamic Value</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-confirmation-popup-when-deleting-records/4847">Show Confirmation Popup when Deleting Records</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/working-with-current-date-and-time/5028">Working with Current Date and Time</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/min-max-years-relative-to-the-current-year/5468">Min/Max Years Relative to the Current Year</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/nested-repeat-regions/5165">Nested Repeat Regions</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-disabled-button-with-spinner-on-form-submit/5470">Show Disabled Button with Spinner on Form Submit</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/push-footer-to-bottom-of-viewport/12929">Push Footer to bottom of viewport</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-app-connect-with-javascript-functions/15765">Using App Connect with JavaScript Functions</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/bootstrap-4-5-visual-designer/2833">Bootstrap 4 &amp; 5 Visual Designer</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/bootstrap-layout/47196">Bootstrap Layout</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-typography-and-text/47278">Bootstrap Typography and Text</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-navbar/2904">Creating a Navbar</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-cards/47174">Bootstrap Cards</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-offcanvas-sidebar-with-bootstrap-5/31927">Creating Offcanvas Sidebar with Bootstrap 5</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-4-forms/2902">Bootstrap 4 Forms</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-4-modals/2901">Bootstrap 4 Modals</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-bootstrap-source-files/7582">Using Bootstrap Source Files</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/navigation-align-options/4523">Navigation Align Options</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/theme-manager/19557">Theme Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/theme-manager-advanced-options/20111">Theme Manager - Advanced Options</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-bootstrap-with-custom-paths/23611">Using Bootstrap with Custom Paths</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/converting-bootstrap-4-pages-to-bootstrap-5/28896">Converting Bootstrap 4 pages to Bootstrap 5</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-theme-manager-with-bootstrap-5/28897">Using the Theme Manager with Bootstrap 5</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-bootstrap-5-navbar/38163">Creating a Bootstrap 5 Navbar</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-bootstrap-5-placeholders/39764">Using Bootstrap 5 Placeholders</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-4-layout-basics/2905">Bootstrap 4 Layout Basics</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/bootstrap-4-cards/2903">Bootstrap 4 Cards</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/image-galleries-animations/2834">Image Galleries and Animations</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/applying-a-masonry-grid/2874">Applying a Masonry Grid</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-a-page-preloader/2875">Applying a Page Preloader</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-animations/2876">Using Animations</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/animation-delay-options/5457">Animation Delay Options</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-lightbox/2877">Using Lightbox</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/responsive-slideshow/2900">Responsive Slideshow</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/slideshow-transitions/2879">Slideshow Transitions</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/swiper-basic-options/3748">Swiper - Basic Options</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/swiper-responsive-options/4148">Swiper - Responsive Options</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/responsive-fullscreen-swiper/4850">Responsive Fullscreen Swiper</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-lazy-load-for-image-on-your-page/4360">Using Lazy Load for Image on Your Page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/lazy-load-with-dynamic-data/4365">Lazy Load with Dynamic Data</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-placeholder-image-with-lazy-load/4366">Using Placeholder Image with Lazy Load</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-parallax-effect-to-images/10208">Applying Parallax Effect to Images</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-background-videos/10209">Adding Background Videos</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-typing-animation/10238">Adding Typing Animation</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-transitions-to-page-elements/24130">Adding Transitions to page elements</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-front-end-components-category/7586">Front-end Components</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/using-the-date-range-picker-with-insert-and-update-record/11753">Using the Date Range Picker with Insert and Update Record</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-time-picker-with-date-picker-component/10821">Using Time Picker with Date Picker Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-date-range-picker-with-dynamic-values/11754">Using Date Range Picker with Dynamic Values</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/getting-started-with-app-connect-event-calendar/18793">Getting Started with App Connect Event Calendar</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/app-connect-calendar-dynamic-events/18828">App Connect Calendar Dynamic Events</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-autocomplete-component/13161">Using the Autocomplete Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/displaying-a-confirmation-dialog-on-form-submit/18620">Displaying a Confirmation Dialog on Form Submit</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/deleting-database-records-with-confirmation/18622">Deleting Database Records with Confirmation</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/app-connect-calendar-dynamic-events/18828">App Connect Calendar Dynamic Events</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-summernote-wysiwyg-editor/19855">Using Summernote WYSIWYG Editor</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/introduction-to-app-connect-flow/18040">Introduction to App Connect Flow</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-toggle-component/36385">Using the Toggle Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-tagify-component/40507">Using the Tagify Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/custom-content-for-tagify-lists/40510">Custom Content for Tagify Lists</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/inserting-tagify-values-into-a-database/40515">Inserting Tagify Values into a Database</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-tagify-with-multi-references/40997">Using Tagify with Multi References</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/tagify-creating-new-tags-and-storing-them-in-the-database/41386">Tagify - Creating New Tags and Storing them in the Database</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/server-connect-introduction/2835">Server-side Components</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/debugging-server-connect-errors/2857">Debugging Server Connect Errors</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/connecting-to-a-database/2873">Connecting to a Database</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-database-queries/2872">Creating Database Queries</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-custom-sql-queries/10653">Creating Custom SQL Queries</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/database-single-query/12781">Database Single Query</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-nested-queries-with-the-database-query-builder/40729">Using Nested Queries with the Database Query Builder</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/advanced-multi-level-nested-queries-with-the-database-query-builder/41374">Advanced Multi Level Nested Queries with the Database Query Builder</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/displaying-dynamic-data-on-your-pages/2871">Displaying Dynamic Data on your Pages</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/filtering-database-query-with-a-text-input/2869">Filtering Database Query with a Text Input</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/filtering-database-query-with-an-url-parameter/2868">Filtering Database Query with an URL Parameter</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/dynamic-select-menu/2867">Dynamic Select Menu</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-dynamic-paging/2865">Applying Dynamic Paging</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/dynamic-sortable-table/2866">Dynamic Sortable Table</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/displaying-record-details-with-the-data-detail-component/11416">Displaying Record Details with the Data Detail Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/loop-through-database-records-with-the-data-iterator-component/11479">Loop Through Database Records with the Data Iterator Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/insert-database-record/2863">Insert Database Record</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/get-inserted-record-id/2862">Get Inserted Record ID</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/sending-a-value-for-unchecked-checkbox-on-database-insert-update/36365">Sending a Value for Unchecked Checkbox on Database Insert / Update</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/delete-database-records/2860">Delete Database Records</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/sending-form-data-to-email/2858">Sending Form Data to Email</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/filtering-database-query-with-multiple-checkboxes/4053">Filtering Database Query with Multiple Checkboxes</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/dynamically-check-multiple-checkboxes/4073">Dynamically Check Multiple Checkboxes</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/server-side-includes-ssi/2864">Server Side Includes (SSI)</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-session-variables/3320">Using Session Variables</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/generating-an-unique-uuid-identifier/36568">Generating an unique UUID identifier</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-set-value-in-server-connect/11647">Using Set Value in Server Connect</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-reusable-actions-with-server-connect-library/27314">Creating Reusable Actions with Server Connect Library</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-globals-in-server-connect/27308">Using Globals in Server Connect</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/join-results-of-2-data-collections/31706">Join Results of 2 Data Collections</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-data-transformations-in-server-connect/31734">Using Data Transformations in Server Connect</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/working-with-server-connect-array-lists/47668">Working with Server Connect Array List</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/forms-data-validation/2837">Form and Data Validation</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/validation-apply-client-side-form-validation-with-user-feedback/2849">Validation - Apply Client Side Form Validation with User Feedback</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/check-if-a-database-record-already-exists-before-inserting-a-new-entry/2847">Check if a Database Record Already Exists Before Inserting a New Entry</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/building-multi-column-forms/5541">Building Multi-Column Forms</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-multi-steps-forms/10799">Creating Multi Steps Forms</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/file-management/4084">File Management</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/uploading-single-file-to-your-server/4231">Uploading Single File To Your Server</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/adding-progress-bar-to-upload-form/4271">Adding Progress Bar to Upload Form</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/inserting-uploaded-file-names-in-a-database/4234">Inserting Uploaded File Names in a Database</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/uploading-multiple-files-to-your-server/4412">Uploading Multiple Files To Your Server</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/inserting-multiple-file-names-in-a-database/4413">Inserting Multiple File Names in a Database</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/show-image-preview-before-upload/4479">Show Image Preview Before Upload</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/listing-files-from-a-folder-on-your-server/4823">Listing Files From a Folder on Your Server</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/resize-image-and-create-a-thumbnail-on-upload/4802">Resize Image and Create a Thumbnail on Upload</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-the-dropzone-component/7727">Using the Dropzone Component</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/file-downloads-with-server-connect/12780">File Downloads with Server Connect</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/custom-file-downloader-with-controls-and-progress-bar/12987">Custom File Downloader with Controls and Progress Bar</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/security-and-login/2836">Security and Login</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/setting-up-site-security-settings/2856">Setting up Site Security Settings</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/login-create-a-working-user-login-page/2855">Login - Create a Working User Login Page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-argon2-secure-hashes/18612">Using Argon2 Secure Hashes</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/security-restricting-access-to-your-page/2853">Security - Restricting Access to Your Page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/security-secure-your-server-side-data/2852">Security - Secure your Server-Side data</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/logout-create-a-working-user-logout-button/2851">Logout - Create a Working User Logout Button</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/getting-details-of-the-logged-in-user-and-binding-them-to-your-page/2850">Getting Details of the Logged In User and Binding them to your page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/logged-user-session-name/3319">Logged User Session Name</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/password-reset-functionality-part-1/4943">Password Reset Functionality: Part 1</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/password-reset-functionality-part-2/5160">Password Reset Functionality: Part 2</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/register-new-user-and-auto-login-on-success/3550">Register New User and Auto Login on Success</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/redirecting-on-login-based-on-user-roles/11419">Redirecting on Login Based on User Roles</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-oauth2-connector-with-facebook/12345">Using OAuth2 Connector with Facebook</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-oauth2-connector-with-google/37265">Using OAuth2 Connector with Google</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/notifications-and-alerts/2838">Notifications and Alerts</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/notifications-adding-and-general-notifications-usage/2845">Notifications - Adding and General Notifications Usage</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-bootstrap-4-toasts/18591">Using Bootstrap 4 Toasts</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/cookies-sessions-and-local-storage/3996">Cookies, Sessions and Local Storage</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/using-cookie-to-show-modal-once/3998">Using Cookie to Show Modal Once</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/passing-values-between-your-pages/5588">Passing Values Between your Pages</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/working-with-arrays/7701">Working with Arrays</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-cookie-consent-alert/18543">Creating a Cookie Consent Alert</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-shopping-cart-with-the-data-store-component/17465">Creating a Shopping Cart with the Data Store Component</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/api-and-json/3669">API and JSON</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/working-with-json-data/2859">Working with JSON Data</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-api-data-source/3670">Using API Data Source</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/data-types-and-binding/3673">Data Types and Binding</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/caching-api-data/3671">Caching API Data</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/api-connector-components-how-to-use-and-connect-rest-curl-apis/3799">API Connector components, how to use and connect REST/Curl API's</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/mobile-apps/2839">Mobile Apps</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/setting-up-a-mobile-project-with-capacitor/39226">Setting Up a Mobile Project with Capacitor</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/framework-7-including-the-framework-on-your-mobile-app/2843">Framework 7 - Including the Framework on your Mobile App</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-desktop-apps/10649">Creating Desktop Apps</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-dynamic-data-in-desktop-and-mobile-apps/19009">Using Dynamic Data in Desktop and Mobile Apps</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/mobile-apps-routing-with-bootstrap/31923">Mobile Apps: Routing with Bootstrap</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-local-databases-in-mobile-and-desktop-apps/46840">Using Local Databases in Mobile and Desktop apps</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-capacitor-camera-plugin/46974">Using Capacitor Camera Plugin</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-routing-and-url-rewrite-category/6578">Routing and URL Rewrite</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/url-rewriting-with-wappler/6254">URL Rewriting with Wappler</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-single-page-apps-spa/6583">Creating Single Page Apps (SPA)</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/ecommerce/7728">Ecommerce</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/getting-started-with-stripe-integration-in-wappler/31295">Getting Started with Stripe Integration in Wappler</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/getting-started-with-stripe-webhooks/31485">Getting Started with Stripe Webhooks</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-checkout-with-custom-products/31503">Stripe Checkout with Custom Products</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-subscriptions/31491">Stripe Subscriptions</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-custom-checkout-forms/31700">Stripe Custom Checkout Forms</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-1-customer-creation/7601">Stripe Integration Part 1 - Customer Creation</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-2-listing-customers/7605">Stripe Integration Part 2 - Listing Customers</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-3-retrieving-a-customer-object/7611">Stripe Integration Part 3 - retrieving a customer object</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-4a-the-basic-payment-action-app-connect-page/7627">Stripe Integration Part 4a - The basic Payment Action - App Connect Page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-4b-the-basic-payment-action-server-connect-page/7671">Stripe Integration Part 4b - The Basic Payment Action - Server Connect Page</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/stripe-integration-part-5-adding-shipping-details-to-your-checkout/7803">Stripe Integration Part 5 - Adding shipping Details to your checkout</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/introduction-to-custom-checkout-module/7861">Introduction to custom checkout module</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-git-and-version-control-category/12405">Git and Version Control</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/version-control-with-git/12406">Version Control with Git</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/git-branches/12407">Git Branches</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/git-remote-repositories/12408">Git Remote Repositories</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/git-powers-going-back-in-time/13554">Git Powers - Going back in time</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/connecting-to-github-gitlab-or-bitbucket/25994">Connecting to GitHub, Gitlab or BitBucket</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-wappler-project-based-on-existing-git-repository/25996">Creating a Wappler project based on existing Git Repository</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-nodejs-category/22088">NodeJS</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/node-js-integration-in-wappler/20928">Node.js Integration in Wappler</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-template-based-pages-and-layout-in-wappler-with-nodejs/21430">Creating template based pages and layout in Wappler with NodeJS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/building-spa-pages-with-nodejs/25209">Building SPA pages with NodeJS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-partials-with-nodejs/21869">Using Partials with NodeJS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/sever-side-rendering-with-nodejs/21650">Sever Side Rendering with NodeJS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-server-connect-data-for-server-side-rendering-in-nodejs/24940">Using Server Connect Data for Server Side Rendering in NodeJS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/applying-security-to-your-nodejs-pages/21682">Applying Security to your NodeJS pages</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-nodejs-project-with-docker/21225">Creating a NodeJS project with Docker</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/nodejs-ftp-deploy-on-shared-hosting-with-plesk-and-cpanel/21222">NodeJS FTP deploy on shared hosting with Plesk and cPanel</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/realtime-data-update-with-nodejs-and-websockets/28089">Realtime Data Update with NodeJS and WebSockets</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/websockets-realtime-messaging/30847">WebSockets - Realtime Messaging</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/building-a-real-time-chat-application/31000">Building a Real Time Chat Application</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-database-manager-category/22089">Database Manager</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/creating-database-connections-with-the-database-manager/20664">Creating Database Connections with the Database Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-database-relations-with-the-database-manager/20653">Creating Database Relations with the Database Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/editing-database-data-with-the-new-database-manager/21867">Editing Database Data with the new Database Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-sub-tables-with-database-manager/40721">Creating Sub Tables with Database Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-multi-references-in-the-database-manager/40991">Using Multi References in the Database Manager</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+            <div class="docs-toc-item">
+              <a class="docs-toc-link" href="/t/about-the-hosting-and-cloud-platforms-category/22091">Hosting and Cloud Platforms</a>
+              <ul class="nav docs-sidenav">
+                
+                  <li>
+                    <a href="/t/managing-cloud-servers-with-resource-manager/43716">Managing Cloud Servers with Resource Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-a-single-local-database-server-for-all-your-projects/50138">Using a Single Local Database Server for all Your Projects</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-managed-databases-with-the-resource-manager/44074">Using Managed Databases with the Resource Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/managing-ssh-keys-with-resource-manager/44456">Managing SSH Keys with Resource Manager</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/use-ssh-for-remote-docker-targets/49842">Use SSH for Remote Docker Targets</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/installing-shared-services-on-remote-servers/50279">Installing Shared Services on Remote Servers</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/installing-and-using-redis-for-multiple-projects/50527">Installing and Using Redis for Multiple Projects</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/free-google-firebase-hosting-in-wappler/17547">Free Google Firebase Hosting in Wappler!</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/deploying-your-web-sites-apps-to-heroku/21421">Deploying your Web Sites/Apps to Heroku</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setup-aws-hosting-with-docker/23867">Setup AWS hosting with Docker</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setup-s3-on-aws/23618">Setup S3 on AWS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setup-s3-on-digital-ocean-spaces/23626">Setup S3 on Digital Ocean Spaces</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-s3-connector/23623">Using S3 Connector</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/roll-your-own-paas-heroku-alternative-part-1/21502">Roll your own PaaS - Heroku alternative (Part 1)</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/roll-your-own-paas-heroku-alternative-part-2/21503">Roll your own PaaS - Heroku alternative (Part 2)</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/setup-aws-hosting-with-docker/23867">Setup AWS hosting with Docker</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-app-connect-s3-upload/23862">Using App Connect S3 Upload</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/using-elastic-ip-with-amazon-aws/24138">Using Elastic IP with Amazon AWS</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/remote-file-manager-for-docker/39791">Remote File Manager for Docker</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/connecting-existing-servers-in-wappler-for-docker-deployments/39788">Connecting existing servers in Wappler for docker deployments</a>
+                  </li>
+                
+                  <li>
+                    <a href="/t/creating-a-free-server-with-oracle-cloud-always-free/39829">Creating a Free Server with Oracle Cloud Always Free</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+        </nav>
+      </div>
+
+      <div class="d-none d-xl-block col-xl-2 docs-toc" id="toc-collapse">
+        <ul class="section-nav">
+          
+            
+            <li class="toc-entry toc-h1">
+              <a href="#Intro">Intro</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#This-Guide">This Guide</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#My-Experience">My Experience</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Terms-to-Know">Terms to Know</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h1">
+              <a href="#Requirements-to-use-Wappler">Requirements to use Wappler</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Basic-Understanding-of-HTML-and-CSS">Basic Understanding of HTML and CSS</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Basic-Understanding-of-Bootstrap">Basic Understanding of Bootstrap</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#-a-href-https-getbootstrap-com-docs-5-0-getting-started-introduction-target-_blank-rel-nofollow-noopener-Introduction-a-">&lt;a href=&#34;https://getbootstrap.com/docs/5.0/getting-started/introduction/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Introduction&lt;/a&gt;</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Basic-Understanding-of-Databases">Basic Understanding of Databases</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h1">
+              <a href="#Project-Settings">Project Settings</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Development-Environment">Development Environment</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Server-Model">Server Model</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Database">Database</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h1">
+              <a href="#Hosting">Hosting</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Web-Hosting-cPanel">Web Hosting - cPanel</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#VPS">VPS</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Railway">Railway</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Google-Firebase">Google Firebase</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Also-Look-At">Also Look At</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h1">
+              <a href="#Database-Hosting">Database Hosting</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Docker">Docker</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Railway">Railway</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Shared-Hosting-Database">Shared Hosting Database</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#VPS-Providers">VPS Providers</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Digital-Ocean-Managed-Databases">Digital Ocean Managed Databases</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h1">
+              <a href="#Common-HTTP-Request-Types">Common HTTP Request Types</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h1">
+              <a href="#Tips-When-Starting-Out">Tips When Starting Out</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Plan-Ahead-Organize-and-Double-Check-Spelling">Plan Ahead, Organize, and Double Check Spelling</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#-a-href-https-www-figma-com-target-_blank-rel-nofollow-noopener-Figma-the-collaborative-interface-design-tool-a-">&lt;a href=&#34;https://www.figma.com/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;Figma: the collaborative interface design tool.&lt;/a&gt;</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h3">
+              <a href="#-a-href-https-drawsql-app-target-_blank-rel-nofollow-noopener-DrawSQL-Database-schema-diagrams-a-">&lt;a href=&#34;https://drawsql.app/&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;DrawSQL - 🔥 Database schema diagrams&lt;/a&gt;</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Use-GIT">Use GIT</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#SQLite">SQLite</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Don-t-Overcomplicate-Things">Don’t Overcomplicate Things</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h1">
+              <a href="#Resources-and-Troubleshooting">Resources and Troubleshooting</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Documentation">Documentation</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#YouTube">YouTube</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Full-Tutorials">Full Tutorials</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Getting-Help-on-the-Forum">Getting Help on the Forum</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Using-AI">Using AI</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h2">
+              <a href="#Other">Other</a>
+            </li>
+          
+            
+            <li class="toc-entry toc-h1">
+              <a href="#Feedback">Feedback</a>
+            </li>
+          
+        </ul>
+      </div>
+
+      <main class="col-12 col-md-9 col-xl-7 py-md-3 pl-md-5 docs-content article" role="main">
+        <a class="float-right" href="https://community.wappler.io/t/resources-and-tips-for-beginners-to-wappler/48476/1">Discuss</a>
+
+        <h1 class="docs-title">Resources and Tips for Beginners to Wappler</h1>
+
+        <div data-theme-toc="true"> </div>
+<h1 id="Intro">Intro</h1>
+<h2 id="This-Guide">This Guide</h2>
+<p class="lead">This will be about getting started with Wappler when coming from a non-coding background.</p>
+<p>This isn’t a tutorial on how to make a site or anything (although those are linked), more talking about what’s involved and a general collection of resources I found useful. As a heads up, I am using ChatGPT to help with some of the explanations.</p>
+<p>This will just cover the basics you NEED to know, assuming you are able to learn more advanced stuff as you go.</p>
+<h2 id="My-Experience">My Experience</h2>
+<p>Just thought I’d share generally where I am coming from so you can get a reference to if you are in a similar boat to me or not.</p>
+<p>I started using Wappler about a half a way ago. I have no real coding experience, just what I picked up over time using things like WordPress and Bubble. I would describe web design/development as more of a hobby for me. I switched to Wappler because I got frustrated at always trying to find workarounds to simple problems in things like Bubble because they didn’t support it.</p>
+<p>Currently, I have just about finished recreating an old WordPress website with a lot of added functionality as well as started work on a social media type project.</p>
+<p>The front-end designing part of Wappler is very easy for me to use and understand and has little to no problems.</p>
+<p>The database part was very easy after I watched Hyperbyte’s tutorial series (linked later on).</p>
+<p>The one place I ran into some problems was when trying to deploy my website to Digital Ocean and get the domain and SSL working, but with help from the amazing community and Wappler team I was able to get it working.</p>
+<p>One thing that is a bit too much for me right now is extensions (although I haven’t really given them a go yet). They allow you to add on to Wappler functionality, but you have to code these yourselves. There are some shared on the forum by other Wappler users, and I also think the Wappler team is working on improvements to this area.</p>
+<p>One last thing as a heads up, I reference Digital Ocean quite a bit since it is what I use but feel free to use whatever works for you.</p>
+<h2 id="Terms-to-Know">Terms to Know</h2>
+<p>Deploy - Simply means to publish. You are “deploying” your site from your computer to a target (usually a live server/webhost), so it is accessible to others.</p>
+<p>Target - Refers to a specific environment or platform. For example, you might have different targets for development, testing, staging, and production. Each target has its own set of settings and configurations, such as database credentials, API keys, and URLs.</p>
+<p>Framework - A pre-built set of components. By default, Wappler adds Bootstrap, Font Awesome, and Server Connect.</p>
+<p>GIT - A version control system that allows you to keep track of changes to your code over time.</p>
+<p>API - Application Programming Interface, is a set of protocols and tools for building software applications. It allows different software programs to communicate with each other.</p>
+<p>Node.js - An open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside of a browser. It is commonly used for server-side programming.</p>
+<p>Express - A fast and minimalist web application framework for Node.js. It provides a set of features for building web applications and APIs, such as routing, middleware, and HTTP utilities.</p>
+<p>JQuery - A fast, small, and feature-rich JavaScript library. It simplifies the process of writing complex JavaScript code and provides a wide range of functionalities to make web development easier and more efficient.</p>
+<p>jQuery allows you to manipulate the HTML DOM, handle events, create animations, make AJAX requests, and much more with just a few lines of code.</p>
+<p>Bootstrap - A popular front-end framework for building responsive, mobile-first web applications. It provides a set of pre-built components and styles that can be easily customized.</p>
+<p>SSL - Secure Sockets Layer is a security technology that encrypts the data that is transmitted between a web browser and a web server. When you visit a website that uses SSL, the website’s URL starts with “https” instead of “http”, and a padlock icon appears in the address bar. Wappler supplies a system called “Traefik” to set up SSL.</p>
+<p>Docker - A tool that helps developers build and run applications in a way that makes them easy to move around. It does this by packaging everything an application needs to run - like code and libraries - into a little box called a container. This container can then be moved between different computers and environments, without any changes needed. Docker makes it easier for developers to build, test, and deploy applications quickly and consistently, without worrying about compatibility issues.</p>
+<p>For some more information and discussion see<br>
+<aside class="quote quote-modified" data-post="1" data-topic="14531">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" class="lazyload" data-src="/user_avatar/community.wappler.io/jonl/40/50707_2.png" class="avatar">
+    <a href="https://community.wappler.io/t/a-docker-analogy/14531">A Docker analogy</a> <a class="badge-wrapper  bullet" href="/c/wappler-general/9"><span class="badge-category-bg" style="background-color: #BF1E2E;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="General discussions about Wappler.">Wappler General</span></a>
+  </div>
+  <blockquote>
+    Imagine you have an USB pendrive and you install on it an Operating System, a Web server, a database and you create a web page on top of that. You are able to boot into your pendrive and everything is peachy. You can access your website that is being served by your laptop through the web server installed on your pendrive. 
+Now imagine you want to take that same setup to your desktop because you think it’s more appropiate to have a web server on a less portable computer. You extract the pendrive …
+  </blockquote>
+</aside>
+</p>
+<p>Routes - Used to define the URL paths and the corresponding actions that should be taken when a user navigates to that particular URL. This could include displaying specific content, loading data from a database, or executing a server-side script.</p>
+<p>Server Action - Perform a specific task or operation on the server-side. It can be used to handle requests from clients, interact with databases, manipulate data, and perform other server-side tasks. They can be organized into workflows to create more advanced functionality, such as user authentication, data processing, and web service integrations.</p>
+<p>Workflows - A set of automated actions or sequences of events that execute in response to specific triggers. For example, a workflow could be created to send a confirmation email to a user after they have completed a form on a website. The workflow would trigger when the form is submitted, and it would include actions such as validating the form data, sending the confirmation email, and updating a database to record the form submission.</p>
+<p>Droplet - A basic VPS from Digital Ocean. Just a fancy name for a server.</p>
+<p>VPS - Virtual Private Server is a type of web hosting service that allows users to have their own virtual server environment on a physical server that is shared with other users. Essentially, a VPS provides users with more control and flexibility over their web hosting environment compared to shared hosting. Users can install their own operating system and software, configure their own settings, and have access to more resources such as CPU, RAM, and disk space. VPS hosting is commonly used by businesses and individuals who require more power and control than what shared hosting can offer, but do not require the full resources of a dedicated server.</p>
+<p>HTTP Request - A message sent by a client (such as a web browser) to a server in order to request content or data. The request typically includes information about the resource being requested (such as a web page or a file), as well as any additional data required for the server to process the request. The server then sends a response back to the client, which may include the requested content, an error message, or other relevant information. The HTTP protocol is the primary method used for communicating between web clients and servers.<br>
+We will cover common HTTP request types later on.</p>
+<h1 id="Requirements-to-use-Wappler">Requirements to use Wappler</h1>
+<h2 id="Basic-Understanding-of-HTML-and-CSS">Basic Understanding of HTML and CSS</h2>
+<p>You just need to understand the basics. Things like padding, margin, borders, and alignment.</p>
+<h2 id="Basic-Understanding-of-Bootstrap">Basic Understanding of Bootstrap</h2>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img class="lazyload" data-src="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon-32x32.png" class="site-icon" width="32" height="32">
+      <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" rel="nofollow noopener">getbootstrap.com</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:690/345;"><img class="lazyload" data-src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-social.png" class="thumbnail" width="690" height="345"></div>
+
+<h3 id="-a-href-https-getbootstrap-com-docs-5-0-getting-started-introduction-target-_blank-rel-nofollow-noopener-Introduction-a-"><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" rel="nofollow noopener">Introduction</a></h3>
+
+<p>Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<p>Bootstrap is a way to design the front end of your website as well as make it responsive. It’s what you use to layout your website using things like containers, rows, and columns. It also lets you easily add things like cards and accordions. You can easily set up a theme with global colors and fonts. It also has lots of premade CSS classes to easily style with. It is kind of similar to a theme in WordPress, but you have a lot more freedom and control.</p>
+<p>Two of the biggest things to properly understand is the<br>
+Grid system - <a href="https://getbootstrap.com/docs/5.0/layout/grid/" rel="nofollow noopener">https://getbootstrap.com/docs/5.0/layout/grid/</a><br>
+And<br>
+Breakpoints - <a href="https://getbootstrap.com/docs/5.0/layout/breakpoints/" rel="nofollow noopener">https://getbootstrap.com/docs/5.0/layout/breakpoints/</a></p>
+<p>Also, if you are looking at the Bootstrap site and getting a little worried, don’t be. All the complicated looking stuff like installing node packages, SASS, utilities, etc. are done for you with Wappler.</p>
+<h2 id="Basic-Understanding-of-Databases">Basic Understanding of Databases</h2>
+<p>You just need to know simple things, like what a database is, what a table is, and things like that. If you are new to databases altogether, you can kind of think of a Database as a group of spreadsheets. A basic example of a database table would be a user table with columns for email, password, first name, and last name.</p>
+<p>The most complicated part (it’s not very complicated) you will need to understand is CRUD/SCRUD (Create Read, Update, Delete, can also include Search which is similar to Read), which is one of the main ways to interact with your database. Video about the topic<br>
+</p><div class="onebox lazyYT lazyYT-container" data-youtube-id="vZvFcTE8k_0" data-youtube-title="Introducing the SCRUD 5 - the generic table management actions (remastered)" data-width="480" data-height="270" data-parameters="feature=oembed&amp;wmode=opaque">
+  <a href="https://www.youtube.com/watch?v=vZvFcTE8k_0" target="_blank" rel="nofollow noopener">
+    <img class="ytp-thumbnail-image" class="lazyload" data-src="https://i.ytimg.com/vi/vZvFcTE8k_0/maxresdefault.jpg" width="480" height="270" title="Introducing the SCRUD 5 - the generic table management actions (remastered)">
+  </a>
+</div>
+
+<p>One step further would be understanding joins, sub tables, and multi references. Video to explain those<br>
+</p><div class="onebox lazyYT lazyYT-container" data-youtube-id="olJ-YWcrQtw" data-youtube-title="Joins,  sub tables and multi references demystified" data-width="480" data-height="270" data-parameters="feature=oembed&amp;wmode=opaque">
+  <a href="https://www.youtube.com/watch?v=olJ-YWcrQtw" target="_blank" rel="nofollow noopener">
+    <img class="ytp-thumbnail-image" class="lazyload" data-src="https://i.ytimg.com/vi/olJ-YWcrQtw/maxresdefault.jpg" width="480" height="270" title="Joins,  sub tables and multi references demystified">
+  </a>
+</div>
+
+<h1 id="Project-Settings">Project Settings</h1>
+<h2 id="Development-Environment">Development Environment</h2>
+<p>When designing your site, you don’t want to have to pay for hosting and constantly upload your site to test it. So instead, you host the site locally on your computer. Your two main choices are Wappler Local Server and Docker.</p>
+<p>I prefer Wappler Local Server for its ease of use, but Docker is more powerful and can host a database on your computer for you.</p>
+<h2 id="Server-Model">Server Model</h2>
+<p>This is what is going to run the backend of your website. Assuming you are using Wapplers built in tools you don’t need to know how to write the code or anything like that. I see most people using Node.js and it is what I use. Unless you have a specific reason, I would just use Node.</p>
+<h2 id="Database">Database</h2>
+<p>Your choices are…</p>
+<p>SQLite - A basic database that is best used for local development or mobile apps.</p>
+<p>Custom(local) - You can use a database like MySQL on your own computer by installing something like WAMP.</p>
+<p>Custom(external) - If you are hosting a database somewhere else you can connect to it.</p>
+<p>Cloud Provider - For use with the <a href="/t/managing-cloud-servers-with-resource-manager/43716">resource manager</a>.</p>
+<p>Docker - If you set your development environment to Docker you can have Docker run a database like MySQL for you on your computer without having to mess around with WAMP.</p>
+<h1 id="Hosting">Hosting</h1>
+<h2 id="Web-Hosting-cPanel">Web Hosting - cPanel</h2>
+<p>You may already be familiar with this method if you have previous sites you have hosted. You will have an interface to access everything related to the server, and you can upload your site with FTP. You can usually create a database on these as well(confirm?). Just make sure that the provider you chose supports FTP, Node.js, and your preferred database type.</p>
+<h2 id="VPS">VPS</h2>
+<p>With a VPS you are in charge of a lot more and have to do most things on your own. However, Wappler and Docker make this easy for you. You can connect to your VPS provider in Wappler’s resource manager and easily create servers and databases as well as deploy your site in a few clicks. The most common VPS I see is Digital Ocean, which is what I use.</p>
+<h2 id="Railway">Railway</h2>
+<p>You can easily upload your sites via GIT and create databases in a few clicks. Has a free tier. This is great for beginners or for small sites. For more info see</p>
+<div class="onebox lazyYT lazyYT-container" data-youtube-id="kaQqH9GIYh8" data-youtube-title="Deploying to Railway" data-width="480" data-height="270" data-parameters="feature=oembed&amp;wmode=opaque">
+  <a href="https://www.youtube.com/watch?v=kaQqH9GIYh8" target="_blank" rel="nofollow noopener">
+    <img class="ytp-thumbnail-image" class="lazyload" data-src="https://i.ytimg.com/vi/kaQqH9GIYh8/maxresdefault.jpg" width="480" height="270" title="Deploying to Railway">
+  </a>
+</div>
+
+<p>and</p>
+<div class="onebox lazyYT lazyYT-container" data-youtube-id="WeslBREciKY" data-youtube-title="Database Connection with Railway" data-width="480" data-height="270" data-parameters="feature=oembed&amp;wmode=opaque">
+  <a href="https://www.youtube.com/watch?v=WeslBREciKY" target="_blank" rel="nofollow noopener">
+    <img class="ytp-thumbnail-image" class="lazyload" data-src="https://i.ytimg.com/vi/WeslBREciKY/maxresdefault.jpg" width="480" height="270" title="Database Connection with Railway">
+  </a>
+</div>
+
+<h2 id="Google-Firebase">Google Firebase</h2>
+<p>You can get free hosting, but they do not allow any server-side languages which limits a lot of what you can do.</p>
+<h2 id="Also-Look-At">Also Look At</h2>
+<aside class="quote quote-modified" data-post="1" data-topic="37229">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" class="lazyload" data-src="/letter_avatar/digo/40/5_81c48a6156c45fac0d25db91e6a334df.png" class="avatar">
+    <a href="https://community.wappler.io/t/ultimate-hosting-comparison-info-list-for-wappler-projects/37229">Ultimate Hosting Comparison &amp; Info LIst for Wappler Projects</a> <a class="badge-wrapper  bullet" href="/c/hosting-general/26"><span class="badge-category-bg" style="background-color: #AB9364;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="In this category you can talk about general hosting and hosting providers. Not directly Wappler related but useful to share information and your experience.">Hosting General</span></a>
+  </div>
+  <blockquote>
+    Hi all, 
+Since I’ve started using Wappler and visiting the forums I’ve noticed a few threads popping up every couple of weeks where people ask what provider they should use for either Domain or VPS hosting. This is an industry I’m very familiar with, and since I’ve been helped so much on these forums I decided to give back by making a list of trusted providers throughout the industry, as well as information on each hosting type. 
+This guide will cover both Domains, Web and VPS/Dedicated Server p…
+  </blockquote>
+</aside>
+
+<p>and</p>
+<aside class="quote quote-modified" data-post="4" data-topic="37116">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" class="lazyload" data-src="/user_avatar/community.wappler.io/psweb/40/530_2.png" class="avatar">
+    <a href="https://community.wappler.io/t/my-lessons-of-node-js-heroku-docker-caprover-and-the-php-world-bloody-forehead/37116/4">My lessons of Node.js/Heroku/Docker/Caprover and the PHP world - bloody forehead</a> <a class="badge-wrapper  bullet" href="/c/coffee-lounge/18"><span class="badge-category-bg" style="background-color: #8C6238;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="Area for general chat, miscellaneous discussions, new member intros or off-topic items.">Coffee Lounge</span></a>
+  </div>
+  <blockquote>
+    I suppose it depends how much you complicate it yourself, and in saying that I suppose it really depends on your end goal and needs. 
+To simplify this to anyone reading. 
+Here are the different routes you can take 
+
+Get a Domain Name through a domain registrar of your choice
+Get a shared linux hosting account through the hosting provider of your choice
+
+If you want a standard PHP, MySQL type site 
+
+Open cPanel, create a database
+In cPanel create a FTP user unless one is already created for you t…
+  </blockquote>
+</aside>
+
+<p>Text tutorial showing a Docker and Digital Ocean setup.<br>
+<aside class="quote quote-modified" data-post="25" data-topic="29784">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" class="lazyload" data-src="/user_avatar/community.wappler.io/psweb/40/530_2.png" class="avatar">
+    <a href="https://community.wappler.io/t/docker-local-databases/29784/25">Docker: Local Databases</a> <a class="badge-wrapper  bullet" href="/c/wappler-general/howto/21"><span class="badge-category-parent-bg" style="background-color: #BF1E2E;"></span><span class="badge-category-bg" style="background-color: #3AB54A;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="Share all the handy tips and tricks about Wappler usage here! Don’t be shy!">How To</span></a>
+  </div>
+  <blockquote>
+    Sort of correct in what you are saying but just to clarify, NodeJS can be used without Docker, but if you want Docker as well as NodeJS together then this is sort of the setup. 
+
+Before even opening Wappler, make sure you have the latest NodeJS installed (The LTS) version
+Next make sure you have Docker for Desktop installed, but for me I just installed it, and did nothing inside it at all.
+Open Wappler, create a new project, make sure to choose 
+Hosting Type: Docker Hosting 
+Server Model: NodeJS
+…
+  </blockquote>
+</aside>
+</p>
+<p>Video showing how to set up FTP and database on shared host (older Wappler version, using PHP)<br>
+</p><div class="onebox lazyYT lazyYT-container" data-youtube-id="-rKpa_f8hs4" data-youtube-title="Webinar 1 - Setting up a Wappler project" data-width="480" data-height="270" data-parameters="feature=oembed&amp;wmode=opaque">
+  <a href="https://www.youtube.com/watch?v=-rKpa_f8hs4" target="_blank" rel="nofollow noopener">
+    <img class="ytp-thumbnail-image" class="lazyload" data-src="https://i.ytimg.com/vi/-rKpa_f8hs4/hqdefault.jpg" width="480" height="270" title="Webinar 1 - Setting up a Wappler project">
+  </a>
+</div>
+
+<h1 id="Database-Hosting">Database Hosting</h1>
+<h2 id="Docker">Docker</h2>
+<p>If you are using Docker locally you are able to deploy your database along with your website when you deploy to a place like Digital Ocean. Your Digital Ocean droplet would host both your website and database (this will increase the resources used).</p>
+<h2 id="Railway">Railway</h2>
+<p>You can easily create a database on Railway even with the free tier. You can then connect to it from Wappler.</p>
+<h2 id="Shared-Hosting-Database">Shared Hosting Database</h2>
+<p>Most shared hosting providers give you a cPanel that allows you to create databases.</p>
+<h2 id="VPS-Providers">VPS Providers</h2>
+<p>You can install a database on your VPS. Some come with one click installs so you don’t have to get into the command lines or anything.</p>
+<h2 id="Digital-Ocean-Managed-Databases">Digital Ocean Managed Databases</h2>
+<p>You can buy a database cluster from Digital Ocean for $15 a month. This allows you to make multiple databases, so you can have a database for each of your sites in this one cluster rather than having to make and host a bunch of different databases. It is also managed meaning they handle things like the software and security.</p>
+<h1 id="Common-HTTP-Request-Types">Common HTTP Request Types</h1>
+<p>I find GET and POST to be what I use the most.</p>
+<p>GET - Retrieves data from a server. When a browser sends a GET request, it is asking the server to send back a resource (a web page or data) that matches a specific URL. The data sent through a GET request is visible in the URL as a query string. Can also send variables with the request in order to do things like filter a database search.</p>
+<p>POST - Submits data to be processed to a specified resource. When a browser sends a POST request, it is asking the server to accept the data enclosed in the request’s body and process it. Unlike GET, the data sent through a POST request is not visible in the URL. This is commonly used to send form data, file uploads, and other types of data.</p>
+<p>In general, GET is used when you want to retrieve data from a server, and POST is used when you want to send data to a server for processing. However, both methods can be used for a variety of purposes depending on the specific requirements of a web application.</p>
+<p>Also worth knowing.</p>
+<p>PUT: Updates an existing resource on the server.</p>
+<p>DELETE: Removes a resource from the server.</p>
+<p>PATCH: Applies partial modifications to an existing resource.</p>
+<p>For more information - <a href="https://www.w3schools.com/tags/ref_httpmethods.asp" rel="nofollow noopener">https://www.w3schools.com/tags/ref_httpmethods.asp</a></p>
+<h1 id="Tips-When-Starting-Out">Tips When Starting Out</h1>
+<h2 id="Plan-Ahead-Organize-and-Double-Check-Spelling">Plan Ahead, Organize, and Double Check Spelling</h2>
+<p>This goes for server actions, database design, on page elements, etc. It is a lot easier if you plan everything ahead and properly organize it. In Wappler, if you change the name or location of an item you will have to manually edit most things that reference it in your project.</p>
+<p>It is far better to spend a little bit of time planning ahead to save a lot of time down the line.</p>
+<p>I personally use Figma for creating a rough draft of my frontend.<br>
+</p><aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <img class="lazyload" data-src="https://static.figma.com/app/icon/1/icon-192.png" class="site-icon" width="192" height="192">
+      <a href="https://www.figma.com/" target="_blank" rel="nofollow noopener">Figma</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:690/362;"><img class="lazyload" data-src="https://cdn.sanity.io/images/599r6htc/localized/0ee4e52ec34a1aef92e1b2bb7e29820685083b3e-2400x1260.png?w=1200&amp;q=70&amp;fit=max&amp;auto=format" class="thumbnail" width="690" height="362"></div>
+
+<h3 id="-a-href-https-www-figma-com-target-_blank-rel-nofollow-noopener-Figma-the-collaborative-interface-design-tool-a-"><a href="https://www.figma.com/" target="_blank" rel="nofollow noopener">Figma: the collaborative interface design tool.</a></h3>
+
+<p>Build better products as a team. Design, prototype, and gather feedback all in one place with Figma.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+<br>
+And DrawSQL to plan out my database.<br>
+<aside class="onebox whitelistedgeneric">
+  <header class="source">
+      <a href="https://drawsql.app/" target="_blank" rel="nofollow noopener">DrawSQL</a>
+  </header>
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:690/362;"><img class="lazyload" data-src="https://drawsql.app/img/drawsql-banner.png?640956f30060e5.11571868" class="thumbnail" width="690" height="362"></div>
+
+<h3 id="-a-href-https-drawsql-app-target-_blank-rel-nofollow-noopener-DrawSQL-Database-schema-diagrams-a-"><a href="https://drawsql.app/" target="_blank" rel="nofollow noopener">DrawSQL - 🔥 Database schema diagrams</a></h3>
+
+<p>Simple, beautiful database diagram editor for developers to create, collaborate and visualize their entity relationship diagrams.</p>
+
+
+  </article>
+  <div class="onebox-metadata">
+    
+    
+  </div>
+  <div style="clear: both"></div>
+</aside>
+
+<h2 id="Use-GIT">Use GIT</h2>
+<p>GIT can look a little confusing at first, but it is quite easy to use and very useful. The reason to use GIT is to store a copy of your site at various points. If you make a mistake, you can easily restore back to a save point. Think of it like system restore on a computer. You can do slightly more complicated things like have branches that you use if you want to test out a change.</p>
+<p>I strongly suggest setting up GIT. It can be a lifesaver if you ever make a mistake.</p>
+<h2 id="SQLite">SQLite</h2>
+<p>SQLite is great for designing your site locally, but you will probably want a different database for live. You can easily apply the structure of your SQLite database (the tables, columns, etc.) to your production database. The entries/data will not transfer over, however.</p>
+<h2 id="Don-t-Overcomplicate-Things">Don’t Overcomplicate Things</h2>
+<p>With all the power Wappler provides you may find yourself getting a little carried away trying to implement an idea. I just spent like 2 hours trying to make part of my text heading change and animate when it does. I was adding arrays and schedule components and more. Then I found out I could have just used “Typed Properties” and do all I wanted in 1 min.</p>
+<p>Anyways, if you are trying to do something simple and are getting frustrated after adding like 50 components, take a step back and make sure you need to do it that way in the first place.</p>
+<h1 id="Resources-and-Troubleshooting">Resources and Troubleshooting</h1>
+<h2 id="Documentation">Documentation</h2>
+<p>To be honest, the Wappler documentation is a bit lacking but still very useful. It’s also a bit of a mess as it is in a few locations, and I think some things can only be found in one place.<br>
+<br><br><br>
+Main Docs Page - <a href="https://docs.wappler.io/">https://docs.wappler.io/</a><br>
+I find these easiest to read but I think some of the docs on the forum are missing from here.</p>
+<p>Community Forum Docs - <a href="https://community.wappler.io/c/docs">https://community.wappler.io/c/docs</a><br>
+Docs as forum posts, I think these are the most extensive.</p>
+<p>New Docs (work in progress) - <a href="https://docsdev.wappler.io/">https://docsdev.wappler.io/</a><br>
+Not done yet but is looking good and worth checking out.</p>
+<h2 id="YouTube">YouTube</h2>
+<p><a href="https://www.youtube.com/c/Wapplerio" class="onebox" target="_blank" rel="nofollow noopener">https://www.youtube.com/c/Wapplerio</a></p>
+<p>Official channel which includes a great tutorial on how to make a full site by Hyperbytes, great mini tutorials by Ben which cover single topics, and recordings of the monthly meetups where people discuss everything Wappler.</p>
+<h2 id="Full-Tutorials">Full Tutorials</h2>
+<p>Intro to Wappler/Creating a Community Portal Website - By <a class="mention" href="/u/hyperbytes">@Hyperbytes</a> - Wappler v5<br>
+            <iframe width="480" height="360" class="lazyload" data-src="https://www.youtube.com/embed/_efYSy0zRVs?feature=oembed&amp;wmode=opaque&amp;list=PLUjqTJN3byC9W9UFjsV9f9vefe_ZSFQfb" frameborder="0" allowfullscreen="" seamless="seamless" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>
+</p>
+<p>Creating a Mobile App - By <a class="mention" href="/u/adetoyinbo1">@Adetoyinbo1</a> - Wappler v5<br>
+            <iframe width="480" height="360" class="lazyload" data-src="https://www.youtube.com/embed/3YwGbN81Qws?feature=oembed&amp;wmode=opaque&amp;list=PLUjr3mAEAaJgeX5ke1w6mz5bKy6NiFVo2" frameborder="0" allowfullscreen="" seamless="seamless" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>
+</p>
+<p>Task Management App - By <a class="mention" href="/u/adetoyinbo1">@Adetoyinbo1</a> - Wappler v4<br>
+            <iframe width="480" height="360" class="lazyload" data-src="https://www.youtube.com/embed/YiQn_4tKe0E?feature=oembed&amp;wmode=opaque&amp;list=PLUjr3mAEAaJih0G1geldy7zqtnd2cXg-O" frameborder="0" allowfullscreen="" seamless="seamless" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>
+</p>
+<p>PWA Boilerplate - By <a class="mention" href="/u/ben">@Ben</a> - Wappler v4<br>
+            <iframe width="480" height="360" class="lazyload" data-src="https://www.youtube.com/embed/fq9TL_pisy4?feature=oembed&amp;wmode=opaque&amp;list=PLUjqTJN3byC8AeGKyWnRuGSlFx8EtdM9G" frameborder="0" allowfullscreen="" seamless="seamless" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>
+</p>
+<p>Creating a Blog - By <a class="mention" href="/u/hyperbytes">@Hyperbytes</a> - Wappler v4<br>
+            <iframe width="480" height="360" class="lazyload" data-src="https://www.youtube.com/embed/BgH2DH6cFL4?feature=oembed&amp;wmode=opaque&amp;list=PLUjqTJN3byC8YiC1Syw_wQbe5FkEz7BuI" frameborder="0" allowfullscreen="" seamless="seamless" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>
+</p>
+<p>Webinar on Using Wappler - By <a class="mention" href="/u/hyperbytes">@Hyperbytes</a> - Wappler v4<br>
+            <iframe width="480" height="360" class="lazyload" data-src="https://www.youtube.com/embed/-rKpa_f8hs4?feature=oembed&amp;wmode=opaque&amp;list=PLUjqTJN3byC9kzuh1GKJ8jzmoLFw_eHU4" frameborder="0" allowfullscreen="" seamless="seamless" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>
+</p>
+<p>Short Tutorials - By <a class="mention" href="/u/ben">@Ben</a> - Wappler v4 and v5<br>
+            <iframe width="480" height="360" class="lazyload" data-src="https://www.youtube.com/embed/uh58ejiRmnQ?feature=oembed&amp;wmode=opaque&amp;list=PLUjqTJN3byC_ZtYQuRhKdYopd1180MnlW" frameborder="0" allowfullscreen="" seamless="seamless" sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation"></iframe>
+</p>
+<p>All Playlists on the Wappler YouTube Channel<br>
+<a href="https://www.youtube.com/@Wapplerio/playlists" class="onebox" target="_blank" rel="nofollow noopener">https://www.youtube.com/@Wapplerio/playlists</a></p>
+<h2 id="Getting-Help-on-the-Forum">Getting Help on the Forum</h2>
+<p>The forum is the best place to get support for Wappler. Always search for your problem first as there is a good chance someone else had the same question/problem.</p>
+<p>Try to avoid DMing users asking for help, start a topic. Since if you need help on a topic then it is likely someone else down the line may have the same problem and would find your topic useful.</p>
+<p>Provide all related info. Describe what you are trying to achieve in detail, what project settings you are using, and any relevant screenshots or errors.</p>
+<p>Screenshots should be uploaded using the “Upload” button for easier viewing.</p>
+<p>Code should be pasted in between ``` for easy viewing. Example (add the third ` to the front)</p>
+<p>``this is an error I got```</p>
+<p>will look like</p>
+<pre><code class="lang-auto">this is an error that I got
+</code></pre>
+<p>When possible, copy code rather than use screenshots.</p>
+<p>You can find members of the team (Teodor, George, and Patrick) on the forums, usually during the week. They provide great help but are also busy developing Wappler so I would tend to avoid <span class="mention">@ing</span> them unless urgent, especially since there are so many other great Wappler members who can help you.</p>
+<h2 id="Using-AI">Using AI</h2>
+<p>The usefulness of AI can get a little exaggerated by some, but for simple questions it is very useful.</p>
+<p>Make sure you let the AI know you are using Wappler and not hand coding.</p>
+<p>You can try it at<br>
+<a href="https://chat.openai.com/" class="onebox" target="_blank" rel="nofollow noopener">https://chat.openai.com/</a></p>
+<h2 id="Other">Other</h2>
+<p>Here is some great info if you are coming from Bubble.</p>
+<aside class="quote quote-modified" data-post="1" data-topic="14433">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" class="lazyload" data-src="/letter_avatar/dserber/40/5_81c48a6156c45fac0d25db91e6a334df.png" class="avatar">
+    <a href="https://community.wappler.io/t/my-early-experiences-going-from-bubble-to-wappler-translating-bubble-to-wappler/14433">My Early Experiences Going from Bubble to Wappler + Translating Bubble to Wappler</a> <a class="badge-wrapper  bullet" href="/c/from-bubble-to-wappler/50"><span class="badge-category-bg" style="background-color: #0088CC;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="Moving from Bubble to Wappler? Here you can share your experience and share tips &amp; tricks with other ex-Bubble users">From Bubble to Wappler</span></a>
+  </div>
+  <blockquote>
+    Thanks for creating this new category for going from Bubble to Wappler <a class="mention" href="/u/george">@George</a>! 
+I’ll share just a little bit of my early experiences exploring Wappler, from the perspective of someone coming from Bubble, in the hopes that it will help others bridge the knowledge gap. 
+If you guys are like me, when analyzing if Wappler would be a good fit, I’m looking for the equivalent pieces of functionality that I have in Bubble. I have not come across anything that is not possible in Wappler that I have in B…
+  </blockquote>
+</aside>
+
+<p>Productivity Tips and Tricks (old post)<br>
+<aside class="quote quote-modified" data-post="7" data-topic="4359">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="20" height="20" class="lazyload" data-src="/user_avatar/community.wappler.io/revjrblack/40/215_2.png" class="avatar">
+    <a href="https://community.wappler.io/t/productivity-tips-tricks/4359/7">Productivity Tips &amp; Tricks</a> <a class="badge-wrapper  bullet" href="/c/wappler-general/howto/21"><span class="badge-category-parent-bg" style="background-color: #BF1E2E;"></span><span class="badge-category-bg" style="background-color: #3AB54A;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="Share all the handy tips and tricks about Wappler usage here! Don’t be shy!">How To</span></a>
+  </div>
+  <blockquote>
+    Tip 24: To add PHP GLOBALS to a login log table or whatever, this is what I had to do to avoid parser errors with the PHP scripts. 
+My goal was to put in the login form a hidden input field so I could identify what page on the domain the user used to login. This site has an Admin and User site access points. I wanted to use a log to view later to keep up with who was using each access page. 
+&lt;dmx-value id="var_page" value="&lt;?php echo basename($_SERVER['PHP_SELF']); ?&gt;"&gt;&lt;/dmx-value&gt;
+&lt;dmx-value id…
+  </blockquote>
+</aside>
+</p>
+<h1 id="Feedback">Feedback</h1>
+<p>Please start a new topic in the Wappler Community &gt; Wappler General to leave a comment with any feedback, questions, things you would like to see added, etc.</p>      </main>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+  <script src="/js/lazysizes.min.js" async=""></script>
+  <script src="/js/jquery.magnific-popup.js"></script>
+  <script src="/js/docs.js?_1709433964913"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1832653-18"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'UA-1832653-18');
+  </script>
+</body>
+
+</html>
